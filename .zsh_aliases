@@ -1,0 +1,5 @@
+alias t="todo.sh"
+alias g="git"
+alias gcal="gcalcli"
+alias v="vim"
+alias c="cd"
