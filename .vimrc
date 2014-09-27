@@ -5,7 +5,7 @@ set nobackup
 set nowb
 set noswapfile
 inoremap jj <Esc>
-colorscheme badwolf/colors/badwolf
+colorscheme badwolf
 set tabstop=4       " number of visual spaces per TAB
 set softtabstop=4   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
