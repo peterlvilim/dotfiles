@@ -2,4 +2,7 @@
 .i3/sab.status
 .i3/sabnzbd.pyc
 .i3/stopifalreadyrunning.pyc
+.ssh/id_rsa
+.ssh/id_rsa.pub
+.ssh/known_hosts
 
