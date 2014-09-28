@@ -11,6 +11,7 @@ set softtabstop=4   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
 set showcmd             " show command in bottom bar
 filetype indent on      " load filetype-specific indent files
+filetype plugin on
 
 " move to beginning/end of line
 nnoremap B ^
@@ -24,7 +25,6 @@ nnoremap ^ <nop>
 nnoremap j gj
 nnoremap k gk
 
-map P :!pdflatex %<CR><Esc>
 map M :!make<CR><Esc>
 
 " Tell vim to remember certain things when we exit
