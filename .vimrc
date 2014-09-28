@@ -24,7 +24,6 @@ nnoremap ^ <nop>
 nnoremap j gj
 nnoremap k gk
 
-map P :!pdflatex %<CR><Esc>
 map M :!make<CR><Esc>
 
 " Tell vim to remember certain things when we exit
