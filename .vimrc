@@ -49,3 +49,5 @@ set smartcase " only use case if not all lower case in search
 set smarttab " smart tab indenting as you edit code
 set hlsearch " highight search terms
 set incsearch " show search results as you type
+
+set pastetoggle=<F2>
