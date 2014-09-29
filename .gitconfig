@@ -2,3 +2,5 @@
 	name = Peter Vilim
 	emali = peterlvilim@gmail.com
 	email = peterlvilim@gmail.com
+[color]
+	ui = true
