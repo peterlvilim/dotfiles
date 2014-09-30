@@ -50,4 +50,5 @@ set smarttab " smart tab indenting as you edit code
 set hlsearch " highight search terms
 set incsearch " show search results as you type
 
-set pastetoggle=<F2>
+set pastetoggle=<F3>
+set number
