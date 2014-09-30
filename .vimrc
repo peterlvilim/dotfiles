@@ -52,3 +52,4 @@ set incsearch " show search results as you type
 
 set pastetoggle=<F2>
 set number
+highlight LineNr ctermfg=DarkGreen
