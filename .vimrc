@@ -51,3 +51,4 @@ set hlsearch " highight search terms
 set incsearch " show search results as you type
 
 set pastetoggle=<F2>
+set number
