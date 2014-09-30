@@ -6,3 +6,5 @@
 .ssh/id_rsa.pub
 .ssh/known_hosts
 .netrwhist
+torbrowser
+.config
