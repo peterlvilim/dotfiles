@@ -26,6 +26,7 @@ nnoremap j gj
 nnoremap k gk
 
 map M :!make<CR><Esc>
+map checkspell :setlocal spell spelllang=en_us<CR>
 
 " Tell vim to remember certain things when we exit
 "  '10  :  marks will be remembered for up to 10 previously edited files
