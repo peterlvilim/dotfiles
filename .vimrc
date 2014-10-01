@@ -1,11 +1,23 @@
-syntax on " color for file syntax
+syntax on
+set background=dark
+set nocompatible
+let g:solarized_termcolors = 256
+let g:solarized_termtrans =   0
+let g:solarized_degrade   =   0
+let g:solarized_bold      =   1
+let g:solarized_underline =   1
+let g:solarized_italic    =   1
+let g:solarized_contrast  =   "normal"
+let g:solarized_visibility=   "normal"
+
+
 set title " display doc name in terminal title
 set nobackup " don't write backup files since I use git
 set nowb
 set noswapfile " dont write swap files
 " remap pressing jk in insert mode to exiting insert mode
 inoremap jk <Esc>
-colorscheme badwolf " set color scheme to bad wolf
+colorscheme solarized " set color scheme to bad wolf
 set tabstop=4       " number of visual spaces per TAB
 set softtabstop=4   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
@@ -53,4 +65,3 @@ set incsearch " show search results as you type
 
 set pastetoggle=<F2>
 set number
-highlight LineNr ctermfg=DarkGreen
