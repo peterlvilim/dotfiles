@@ -88,9 +88,9 @@ bar {
             # solarized
             background #073642
             statusline #eee8d5
-            focused_workspace #cb4b16 #cb4b16 #eee8d5
-            active_workspace #cb4b16 #cb4b16 #eee8d5
-            inactive_workspace #b58900 #b58900 #eee8d5
+            focused_workspace #cb4b16 #cb4b16 #000000
+            active_workspace #cb4b16 #cb4b16 #000000
+            inactive_workspace #b58900 #b58900 #000000
         }
 }
 
