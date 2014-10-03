@@ -103,6 +103,7 @@ for_window [title=" - Google Chrome$"] border none
 for_window [title="Spotify Premium - Linux Preview"] border none
 bindsym $MOD+SHIFT+s exec spotify
 bindsym $MOD+SHIFT+g exec --no-startup-id google-chrome
+bindsym $MOD+SHIFT+d exec --no-startup-id dwb
 bindsym $MOD+SHIFT+x exec ~/.i3/lock.sh
 bindsym $MOD+SHIFT+z exec ~/.i3/suspend.sh
 
