@@ -76,8 +76,14 @@ if __name__ == '__main__':
 
         j = json.loads(line)
         # insert information into the start of the json, but could be anywhere
+<<<<<<< HEAD
         j.insert(5, {'full_text' : '%s' % " ".join(get_cal().split()), 'name' : 'cal','color':'#eee8d5'})
 	j.insert(0, {'full_text' : '%s' % get_spotify(), 'name' : 'spotify','color':'#228B22'})
 	j.insert(0,{'full_text':'%s' % get_sab(),'name':'sabnzbd','color':'#e5e500'})
+=======
+        j.insert(5, {'full_text' : '%s' % " ".join(get_cal().split()), 'name' : 'cal','color':'#268bd2'})
+	j.insert(0, {'full_text' : '%s' % get_spotify(), 'name' : 'spotify','color':'#859900'})
+	j.insert(0,{'full_text':'%s' % get_sab(),'name':'sabnzbd','color':'#b58900'})
+>>>>>>> a444cce5255736724267b621aa1772cf7108d3c2
         # and echo back new encoded json
         print_line(prefix+json.dumps(j))
