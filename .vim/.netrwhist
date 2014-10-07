@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/pvilim/scripts'
 let g:netrw_dirhist_2='/home/pvilim/code/logging-log4j2/log4j-core'
 let g:netrw_dirhist_3='/home/pvilim/code/logging-log4j2/log4j-samples'
 let g:netrw_dirhist_4='/home/pvilim/dotfiles/.git'
+let g:netrw_dirhist_5='/home/pvilim/dotfiles/.config/gpicview'
