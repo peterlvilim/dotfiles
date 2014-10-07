@@ -7,4 +7,5 @@
 .ssh/known_hosts
 .netrwhist
 torbrowser
-.config
+.config/googlechrome
+google-chrome
