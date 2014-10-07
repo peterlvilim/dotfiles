@@ -1,0 +1,62 @@
+[global_config]
+palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+foreground_color = "#eee8d5"
+background_color = "#002b36"
+cursor_color = "#eee8d5"
+enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+[keybindings]
+  cycle_prev = None
+  close_window = None
+  group_tab = None
+  resize_left = None
+  reset_clear = None
+  go_right = None
+  new_tab = None
+  resize_right = None
+  resize_down = None
+  toggle_zoom = None
+  scaled_zoom = None
+  zoom_in = None
+  group_all = None
+  move_tab_right = None
+  prev_tab = None
+  split_vert = None
+  ungroup_all = None
+  ungroup_tab = None
+  paste = None
+  cycle_next = None
+  zoom_out = None
+  go_prev = None
+  close_term = None
+  new_terminator = None
+  go_next = None
+  go_left = None
+  hide_window = None
+  reset = None
+  go_up = None
+  resize_up = None
+  next_tab = None
+  split_horiz = None
+  zoom_normal = None
+  go_down = None
+  new_window = None
+  move_tab_left = None
+  toggle_scrollbar = None
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    scrollback_lines = 10000
+    background_image = None
+    icon_bell = False
+    show_titlebar = False
+    cursor_blink = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

@@ -7,3 +7,9 @@
 .ssh/known_hosts
 .netrwhist
 torbrowser
+.config/googlechrome
+google-chrome
+spotify
+.config/*
+.config/dwb/default/history
+.config/dwb/default/session
