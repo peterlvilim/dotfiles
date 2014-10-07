@@ -1,0 +1,18 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "icons": {
+      "128": "creeper.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDsmfdZdsfAm1vZ6qIPTOLKgxGWppoCRWhmr+36S++4qSpgb1AsWb/TzlS+Z7c2xtUfs3Rqum8Hap39mmQ8Rdsh/tDx6p2+BAlXH54YvLtZh+lAXmyUwc1RDl6bUtWT6v8V4gqOhHjl97iz+4W9KhCv3Yy+iUBpCiBUuKBXrIK5QQIDAQAB",
+   "manifest_version": 2,
+   "name": "CreepMode",
+   "page_action": {
+      "default_icon": "creepout.png",
+      "default_tile": "CreepMode"
+   },
+   "permissions": [ "tabs", "*://*.facebook.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
+}

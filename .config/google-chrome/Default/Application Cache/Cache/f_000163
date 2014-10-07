@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="31px" height="2120px" viewBox="0 0 31 2120" preserveAspectRatio="none"><g transform="translate(0,2080)"><polygon display="none" fill="#FFFFFF" points="13.162,12.875 12.267,12.875 6.724,3.275 7.62,3.275 "/>
+<polygon display="none" fill="#FFFFFF" points="7.934,12.873 8.396,12.041 19.479,12.041 19.018,12.875 "/>
+<polygon display="none" fill="#FFFFFF" points="5.422,18.802 4.958,17.999 10.5,8.399 10.964,9.203 "/>
+<polygon fill="#FFFFFF" points="7.133,3.983 2,12.875 4.958,17.998 10.091,9.106 "/>
+<polygon fill="#FFFFFF" points="18.519,12.041 13.458,3.275 7.542,3.275 12.604,12.041"/>
+<polygon fill="#FFFFFF" points="8.844,12.875 5.886,17.998 16.042,18 19,12.875"/>
+</g><g transform="translate(0,200)"><polygon fill="#0DA960" points="4.958,17.998 2,12.875 7.542,3.275 10.5,8.398"/>
+  <polygon fill="#4373FD" points="4.958,17.998 7.915,12.875 19,12.875 16.042,18"/>
+  <polygon fill="#FFD24D" points="19,12.875 13.085,12.875 7.542,3.275 13.458,3.275"/>
+</g><g transform="translate(0,1400)"><g>
+  <path fill="#FFFFFF" d="M8.214,16.2H6.5c-0.939,0-1.7-0.762-1.7-1.7s0.761-1.7,1.7-1.7h1.714c0.364,0,0.593,0.173,0.786,0.45h1     C9.707,12.541,8.947,12,8.214,12H6.5C5.118,12,4,13.12,4,14.5S5.118,17,6.5,17h1.714c0.733,0,1.493-0.541,1.786-1.25H9     C8.807,16.027,8.578,16.2,8.214,16.2z"/>
+  <path fill="#FFFFFF" d="M7,14.499C7,14.775,7.225,15,7.5,15h6c0.275,0,0.5-0.225,0.5-0.501S13.775,14,13.5,14h-6     C7.225,14,7,14.223,7,14.499z"/>
+  <path fill="#FFFFFF" d="M14.5,12h-1.715c-0.732,0-1.492,0.541-1.785,1.25h1c0.193-0.277,0.422-0.45,0.785-0.45H14.5     c0.939,0,1.7,0.762,1.7,1.7s-0.761,1.7-1.7,1.7h-1.715c-0.363,0-0.592-0.173-0.785-0.45h-1c0.293,0.709,1.053,1.25,1.785,1.25H14.5     c1.382,0,2.49-1.12,2.49-2.5S15.882,12,14.5,12z"/>
+  <path fill="#FFFFFF" d="M11,7V3H6v8h9V7H11z M8,9H7V8h1V9z M8,7H7V6h1V7z M8,5H7V4h1V5z M10,9H9V8h1V9z M10,7H9V6h1V7z M10,5H9V4h1     V5z M12,9h-1V8h1V9z M14,9h-1V8h1V9z"/>
+</g>
+</g><g transform="translate(0,1160)"><g>
+  <path fill="#FFFFFF" d="M8.214,16.2H6.5c-0.939,0-1.7-0.762-1.7-1.7s0.761-1.7,1.7-1.7h1.714c0.364,0,0.593,0.173,0.786,0.45     h1c-0.293-0.709-1.053-1.25-1.786-1.25H6.5c-1.382,0-2.5,1.12-2.5,2.5s1.118,2.5,2.5,2.5h1.714c0.733,0,1.493-0.541,1.786-1.25h-1     C8.807,16.027,8.578,16.2,8.214,16.2z"/>
+  <path fill="#FFFFFF" d="M7,14.499c0,0.276,0.225,0.501,0.5,0.501h6c0.275,0,0.5-0.225,0.5-0.501s-0.225-0.499-0.5-0.499h-6     C7.225,14,7,14.222,7,14.499z"/>
+  <path fill="#FFFFFF" d="M14.5,12h-1.715c-0.732,0-1.492,0.541-1.785,1.25h1c0.193-0.277,0.422-0.45,0.785-0.45h1.715     c0.939,0,1.7,0.762,1.7,1.7s-0.761,1.7-1.7,1.7h-1.715c-0.363,0-0.592-0.173-0.785-0.45h-1c0.293,0.709,1.053,1.25,1.785,1.25h1.715     c1.382,0,2.49-1.12,2.49-2.5S15.882,12,14.5,12z"/>
+  <path fill="#FFFFFF" d="M11,7v-2h-5v6h9v-4H11z M8,9h-1v-1h1V9z M8,7h-1v-1h1V7z M10,9     h-1v-1h1V9z M10,7h-1v-1h1V7z M12,9h-1v-1h1V9z M14,9h-1v-1h1V9z"/>
+</g>
+</g><g transform="translate(0,1760)"><polygon points="5,12 8,12 14,6 14,22 8,16 5,16 5,12" style="stroke:#FFF;stroke-width:2.2;stroke-linejoin:round;fill:#FFF;"/>
+  <path d="M17.5,11 C19,12 19,15.5 17.5,16.5" style="fill:none;stroke:#FFF;stroke-width:1.5;stroke-linecap:round"/>
+  <path d="M19,9 C22,10.5 22,17.5 19,19" style="fill:none;stroke:#FFF;stroke-width:1.5;stroke-linecap:round"/>
+  <path d="M21,7 C25,9 25,19 21,21" style="fill:none;stroke:#FFF;stroke-width:1.5;stroke-linecap:round"/>
+</g><g transform="translate(0,1600)"><polygon points="5,12 8,12 14,6 14,22 8,16 5,16 5,12" style="stroke:#FFF;stroke-width:2.2;stroke-linejoin:round;fill:#FFF;"/>
+  <path d="M17.5,11 C19,12 19,15.5 17.5,16.5" style="fill:none;stroke:#FFF;stroke-width:1.5;stroke-linecap:round"/>
+</g><g transform="translate(0,1720)"><polygon points="5,12 8,12 14,6 14,22 8,16 5,16 5,12" style="stroke:#FFF;stroke-width:2.2;stroke-linejoin:round;fill:#FFF;"/>
+  <path d="M17.5,11 C19,12 19,15.5 17.5,16.5" style="fill:none;stroke:#FFF;stroke-width:1.5;stroke-linecap:round"/>
+  <path d="M19,9 C22,10.5 22,17.5 19,19" style="fill:none;stroke:#FFF;stroke-width:1.5;stroke-linecap:round"/>
+</g><g transform="translate(0,880)"><path fill="#FFFFFF" d="M5,17.1h1.134L15.1,8.134V6c0-0.445-0.268-0.846-0.679-1.016c-0.411-0.172-0.884-0.077-1.199,0.238 L7.544,10.9H5c-0.607,0-1.1,0.493-1.1,1.1v4C3.9,16.607,4.393,17.1,5,17.1z"/>
+  <path fill="#FFFFFF" d="M10.004,19.559l3.218,3.219C13.433,22.988,13.714,23.1,14,23.1c0.142,0,0.285-0.027,0.421-0.083 C14.832,22.846,15.1,22.445,15.1,22v-7.537L10.004,19.559z"/>
+  <path fill="#FFFFFF" d="M5.088,22.354L19.402,8.041c0.008-0.007,0.018-0.01,0.025-0.017c0.271-0.295,0.267-0.75-0.019-1.035 c-0.289-0.293-0.759-0.292-1.052-0.005c-0.012,0.014-0.017,0.031-0.029,0.044L4.013,21.341c-0.002,0.002-0.005,0.003-0.007,0.005 c-0.255,0.295-0.252,0.736,0.027,1.016c0.287,0.286,0.745,0.288,1.04,0.016C5.079,22.37,5.081,22.36,5.088,22.354z"/>
+</g><g transform="translate(0,2040)"><rect x="6" y="7" width="3" height="14" style="stroke:#FFF;stroke-width:3;stroke-linejoin:round;fill:#FFF;"/>
+  <rect x="14" y="7" width="3" height="14" style="stroke:#FFF;stroke-width:3;stroke-linejoin:round;fill:#FFF;"/>
+</g><g transform="translate(0,360)"><polygon points="6,7 6,21 17,14" style="stroke:#FFF;stroke-width:3;stroke-linejoin:round;fill:#FFF;"/>
+</g><g transform="translate(0,1240)"><defs>
+</defs>
+<polygon points="12.723,15 8,11.048 12.713,7 14,8.408 10.947,11.029 13.99,13.576 "/>
+</g><g transform="translate(0,1440)"><path d="M10,4.613l1.151,2.716l0.423,0.998l1.08,0.093l2.947,0.253l-2.236,1.937l-0.82,0.711l0.246,1.057l0.67,2.88l-2.532-1.527  L10,13.17l-0.93,0.561l-2.532,1.527l0.67-2.88l0.246-1.057l-0.82-0.711L4.398,     8.673L7.345,8.42l1.08-0.093l0.423-0.998L10,4.613   M10,0L7.191,6.627L0,7.244l5.455,4.727L3.82,19L10,15.273L16.18,19l-1.635-7.029L20,7.244l-7.191-0.617L10,0L10,0z"/>
+</g><g transform="translate(0,1520)"><g>
+  <path fill="#FFFFFF" d="M8.67,17.76H7.025C6.593,14.638,4.126,12.168,1,11.733v-1.633C5.024,10.549,8.217,13.738,8.67,17.76z      M5.81,17.76H4.159C3.788,16.201,2.563,14.974,1,14.605v-1.64C3.456,13.377,5.393,15.31,5.81,17.76z M2.888,17.76H1v-1.884     C1.886,16.181,2.582,16.878,2.888,17.76z"/>
+  <path fill="#FFFFFF" d="M10.082,16.651c-0.106-0.508-0.252-1.006-0.431-1.49h8.856V4.729l-14.9-0.005v4.395     C3.128,8.94,2.628,8.795,2.118,8.691V3.24H20v13.411H10.082z"/>
+</g>
+</g><g transform="translate(0,280)"><g>
+  <path fill="#000000" d="M8.67,17.76H7.025C6.593,14.638,4.126,12.168,1,11.733v-1.633C5.024,10.549,8.217,13.738,8.67,17.76z      M5.81,17.76H4.159C3.788,16.201,2.563,14.974,1,14.605v-1.64C3.456,13.377,5.393,15.31,5.81,17.76z M2.888,17.76H1v-1.884     C1.886,16.181,2.582,16.878,2.888,17.76z"/>
+  <path fill="#000000" d="M10.082,16.651c-0.106-0.508-0.252-1.006-0.431-1.49h8.856V4.729l-14.9-0.005v4.395     C3.128,8.94,2.628,8.795,2.118,8.691V3.24H20v13.411H10.082z"/>
+</g>
+</g><g transform="translate(0,40)"><polygon fill="#FFFFFF" points="19,8.414 17.586,7 13,11.586 8.414,7 7,8.414 11.586,13 7,17.586 8.414,19 13,14.414 17.586,19 19,17.586 14.414,13"/>
+</g><g transform="translate(0,1560)"><defs>
+ <filter id="glow" x="-100%" y="-100%" width="26px" height="26px">
+     <feGaussianBlur stdDeviation="4"/>
+ </filter>
+</defs>
+  <circle cx="13" cy="13" r="6" fill="#ffffff" filter="url(#glow)"/>
+  <polygon fill="#FFFFFF" points="19,8.414 17.586,7 13,11.586 8.414,7 7,8.414 11.586,13 7,17.586 8.414,19 13,14.414 17.586,19 19,17.586 14.414,13"/>
+</g><g transform="translate(0,760)"><g>
+ <path fill="#FFFFFF" d="M10.5,4c3.584,0,6.5,2.916,6.5,6.5S14.084,17,10.5,17S4,14.084,4,10.5S6.916,4,10.5,4 M10.5,2 C5.806,2,2,5.806,2,10.5S5.806,19,10.5,19s8.5-3.806,8.5-8.5S15.194,2,10.5,2L10.5,2z"/>
+ <rect x="9.596" y="9.759" fill="#FFFFFF" width="1.808" height="5.204"/>
+ <rect x="9.596" y="6.272" fill="#FFFFFF" width="1.808" height="1.723"/>
+</g>
+</g><g transform="translate(0,1320)"><path fill="#FFFFFF" d="M11,9v-4h-7v11h13v-7H11z M7,14h-1v-1h1V14z M7,12h-1v-1h1V12z   M7,10h-1v-1h1V10z M7,8h-1v-1h1V8z M9,14h-1v-1h1V14z M9,12h-1v-1h1V12z   M9,10h-1v-1h1V10z M9,8h-1v-1h1V8z M13,14h-1v-1h1V14z M13,12h-1v-1h1V12z   M15,14h-1v-1h1V14z M15,12h-1v-1h1V12z"/>
+</g><g transform="translate(0,400)"><polygon fill="#FFFFFF" points="10.5,16 16,11 13,11 13,5 8,5 8,11 5,11 "/>
+</g><g transform="translate(0,1880)"><polygon fill="#000000" points="10.5,16 16,11 13,11 13,5 8,5 8,11 5,11 "/>
+</g><g transform="translate(0,0)"><g>
+ <rect x="3" y="17" fill="#FFFFFF" width="15" height="2"/>
+ <polygon fill="#FFFFFF" points="10.438,15 5,9 8,9 8,3 13,3 13,9 16,9"/>
+</g>
+</g><g transform="translate(0,1840)"><g>
+ <rect x="3" y="17" width="15" height="2"/>
+ <polygon points="10.438,15 5,9 8,9 8,3 13,3 13,9 16,9"/>
+</g>
+</g><g transform="translate(0,160)"><path fill="#EEEEEE" d="M4,13.586V17h3.416l7.498-7.5L11.5,6.084L4,13.586z M16.584,5.826l-1.41-1.41c-0.551-0.553-1.449-0.555-2.005-0.004 l-1.192,1.195l3.416,3.414l1.192-1.193C17.139,7.275,17.137,6.381,16.584,5.826z"/>
+</g><g transform="translate(0,720)"><g>
+    <polygon fill="#BBBBBB" points="21,10 31,10 21,0"/>
+    <defs>
+      <filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="21" y="0" width="10" height="10">
+        <feColorMatrix type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+      </filter>
+    </defs>
+    <mask maskUnits="userSpaceOnUse" x="21" y="0" width="10" height="10" id="SVGID_1_">
+      <g filter="url(#Adobe_OpacityMaskFilter)">
+        <image overflow="visible" width="14" height="14" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMAEAMCAwYAAAGAAAABlwAAAeb/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoXHh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIAA4ADgMBIgACEQEDEQH/ xABzAAEBAAAAAAAAAAAAAAAAAAAGBQEBAAAAAAAAAAAAAAAAAAAAABAAAgMBAAAAAAAAAAAAAAAAAAQBBQYDEQACAQEGBwEAAAAAAAAAAAABAgMEABESIhMFECExQaEyciMSAQAAAAAAAAAAAAAAAAAA AAD/2gAMAwEAAhEDEQAAADEZ2aP/2gAIAQIAAQUAP//aAAgBAwABBQA//9oACAEBAAEFAOWadZpDJvabhSyxM33/2gAIAQICBj8Af//aAAgBAwIGPwB//9oACAEBAQY/ABu9KpkVSwljHNrlJF68Am37alXR4n/Vpo4+5xZXYGyzCkjEokzU2oumZPv16+bf/9k=" transform="matrix(1 0 0 1 19.0005 -1.9995)">
+        </image>
+      </g>
+    </mask>
+    <g opacity="0.17" mask="url(#SVGID_1_)">
+      <polygon points="21,10 31,10 21,0 "/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <path fill="#C9C9C9" d="M20,11V0H3C1.344,0,0,1.344,0,3v31c0,1.657,1.344,3,3,3h25c1.657,0,3-1.343,3-3V11H20z M9,12     c1.657,0,3,1.343,3,3s-1.343,3-3,3s-3-1.343-3-3S7.344,12,9,12z M22.153,30c-1.383-2.048-3.96-3.429-6.919-3.429     S9.698,27.953,8.315,30C7.209,30,7,29.143,6,28.287C8,25.714,10.572,23,15.234,23S22,25.714,24,28.287     C23,29.143,23.361,30,22.153,30z M21,18c-1.656,0-3-1.343-3-3s1.344-3,3-3s3,1.343,3,3S22.657,18,21,18z"/>
+    </g>
+    <defs>
+      <filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="0" y="0" width="31" height="37">
+        <feColorMatrix type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+      </filter>
+    </defs>
+    <mask maskUnits="userSpaceOnUse" x="0" y="0" width="31" height="37" id="SVGID_2_">
+      <g filter="url(#Adobe_OpacityMaskFilter_1_)">
+        <image overflow="visible" width="35" height="41" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMAEAMCAwYAAAG6AAACIAAAAuj/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoXHh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIACkAIwMBIgACEQEDEQH/ xACMAAACAwEBAAAAAAAAAAAAAAAABgIEBwUDAQEAAAAAAAAAAAAAAAAAAAAAEAABBAEDBAMAAAAAAAAAAAAFAgMEBgEAFAcQIDATERIXEQACAQMCAwMNAQAAAAAAAAABAhEAMQMhElETBLEihBAgQWFx gaEyQoKSFEQFEgEAAAAAAAAAAAAAAAAAAAAw/9oADAMBAAIRAxEAAADksPmyGeK+koZSJhoHQpVBjgtORlJIOw0ZWGs0c0C4Uw//2gAIAQIAAQUA8P8A/9oACAEDAAEFAPD/AP/aAAgBAQABBQCsVaOZY/Nx/wAWirshmenHjyGh0OyCpsvkdaMw2xM11r1L1QY24GC6YyMLWWuMH0prrI4R9Ma49e9Q0nPsRkhtbeKViauYD1Uz8QZHZuYJvK7yDVgjcxbsXco7v//aAAgBAgIGPwAf/9oACAEDAgY/AB//2gAIAQEBBj8A5uQm5BgkWr5m/I0MmMm4Gpm/ldnMAM3bR6PBmVswmVBE6aGkxlgrFhEmJjWucigpEzNW +rZ91OkwCWHxpv8AQOcmSxCmI7xnhWJRm2NjM92OEemjhB3nGsbjc6V4zbTm8Fu2nwdAH6fBiYqXII3EcJFqHVc09Sq6tjOkiv2MiFGdJKsCDbga8dRx53CySYPrNbt6Am9qg5FPtNNhw5F1EAA1f+jm+7zv/9k=" transform="matrix(1 0 0 1 -1.9995 -1.9995)">
+        </image>
+      </g>
+    </mask>
+    <g opacity="0.15" mask="url(#SVGID_2_)">
+      <path d="M20,11V0H3C1.344,0,0,1.344,0,3v31c0,1.657,1.344,3,3,3h25c1.657,0,3-1.343,3-3V11H20z M9,12c1.657,0,3,1.343,3,3     s-1.343,3-3,3s-3-1.343-3-3S7.344,12,9,12z M22.153,30c-1.383-2.048-3.96-3.429-6.919-3.429S9.698,27.953,8.315,30     C7.209,30,7,29.143,6,28.287C8,25.714,10.572,23,15.234,23S22,25.714,24,28.287C23,29.143,23.361,30,22.153,30z M21,18     c-1.656,0-3-1.343-3-3s1.344-3,3-3s3,1.343,3,3S22.657,18,21,18z"/>
+    </g>
+  </g>
+</g><g transform="translate(0,1960)"><path transform="translate(-4,0) scale(1.8,1.8)" fill="#c9c9c9" d="M18.863,16.496l-7-12C11.685,4.189,11.355,4,11,4s-0.685,0.189-0.863,0.496l-7,12c-0.182,0.311-0.182,0.691-0.004,1.002S3.643,18,4,18h14c0.357,0,0.689-0.191,0.867-0.502S19.044,16.807,18.863,16.496z"/>
+<circle transform="translate(-4,0) scale(1.8,1.8)" cx="10.998" cy="14.999" r="1.051"/>
+<polygon transform="translate(-4,0) scale(1.8,1.8)" points="10,8 12,8 11.65,13 10.35,13 "/>
+</g><g transform="translate(0,480)"><defs>
+  <filter id="drop-shadow">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="1.4"/>
+    <feOffset dx="0" dy="1" result="offsetblur"/>
+    <feFlood flood-color="rgba(0,0,0,0.8)"/>
+    <feComposite in2="offsetblur" operator="in"/>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+<g filter="url(#drop-shadow)">
+  <rect x="3" y="8" fill="#FFFFFF" width="4" height="4"/>
+  <rect x="9" y="8" fill="#FFFFFF" width="4" height="4"/>
+  <rect x="15" y="8" fill="#FFFFFF" width="4" height="4"/>
+  <rect x="3" y="14" fill="#FFFFFF" width="4" height="4"/>
+  <rect x="9" y="14" fill="#FFFFFF" width="4" height="4"/>
+  <rect x="15" y="14" fill="#FFFFFF" width="4" height="4"/>
+</g>
+</g><g transform="translate(0,560)"><path fill="#FFFFFF" d="M8,10v1h6v2l3-2.5L14,8v2H8z M6,8l-3,2.5L6,13v-2h3v-1H6V8z"/>
+  <path fill="#FFFFFF" enable-background="new" d="M9,4H1v13h1V5h7h0.646H18v12h1V4H2"/>
+</g><g transform="translate(0,120)"><g>
+    <polygon points="10,15.272 16.18,19 14.545,11.971 20,7.244 12.809,6.627 10,0 7.191,6.627 0,7.244 5.455,11.971 3.82,19"/>
+  </g>
+</g><g transform="translate(0,960)"><g xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" sketch:type="MSPage">
+ <g sketch:type="MSLayerGroup">
+  <path sketch:type="MSShapeGroup" fill="#FFFFFF" d="M10.226,4.663c0.42,0.347,1.286,1.076,1.286,2.47    c0,1.356-0.703,1.998-1.47,2.602c-0.237,0.238-0.551,0.529-0.551,0.933c0,0.403,0.35,0.645,0.551,0.811l0.661,0.517    c0.804,0.678,1.507,1.271,1.507,2.504c0,1.844-1.597,3.501-4.739,3.501c-2.687,0-4.005-1.303-4.005-2.659    c0-0.658,0.354-1.598,1.433-2.24c1.132-0.694,2.743-0.793,3.564-0.848c-0.257-0.33-0.527-0.667-0.527-1.235    c0-0.312,0.105-0.581,0.197-0.801c0,0-0.271,0.119-0.588,0.119c-1.937,0-3.013-1.398-3.013-2.874c0-0.884,0.354-1.79,1.139-2.468    C6.712,4.133,7.953,3.999,8.94,3.999h3.673l-1.102,0.664H10.226L10.226,4.663L10.226,4.663L10.226,4.663z M9.013,12.806    c-0.146-0.021-0.259-0.037-0.44-0.037c-0.165,0-1.138,0.045-1.904,0.301c-0.402,0.147-1.572,0.587-1.572,1.888    c0,1.302,1.228,2.271,3.183,2.271c1.753,0,2.682-0.879,2.682-2.012C10.961,14.276,10.403,13.795,9.013,12.806    C9.013,12.806,10.403,13.795,9.013,12.806L9.013,12.806L9.013,12.806z M9.564,9.304c0.426-0.422,0.477-1.07,0.477-1.4    c0-1.318-0.668-3.279-2.204-3.279c-0.482,0-1.063,0.224-1.36,0.59C6.163,5.6,6,6.212,6,6.688c0,1.225,0.735,3.094,2.398,3.094    C8.862,9.783,9.268,9.596,9.564,9.304L9.564,9.304z"/>
+  <rect x="15" y="7" sketch:type="MSShapeGroup" fill="#FFFFFF" width="1" height="5">
+  </rect>
+  <rect x="13" y="9" sketch:type="MSShapeGroup" fill="#FFFFFF" width="5" height="1">
+  </rect>
+ </g>
+</g>
+</g><g transform="translate(0,1080)"><g xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" sketch:type="MSPage">
+ <g sketch:type="MSLayerGroup">
+  <path sketch:type="MSShapeGroup" fill="#000000" d="M10.226,4.663c0.42,0.347,1.286,1.076,1.286,2.47    c0,1.356-0.703,1.998-1.47,2.602c-0.237,0.238-0.551,0.529-0.551,0.933c0,0.403,0.35,0.645,0.551,0.811l0.661,0.517    c0.804,0.678,1.507,1.271,1.507,2.504c0,1.844-1.597,3.501-4.739,3.501c-2.687,0-4.005-1.303-4.005-2.659    c0-0.658,0.354-1.598,1.433-2.24c1.132-0.694,2.743-0.793,3.564-0.848c-0.257-0.33-0.527-0.667-0.527-1.235    c0-0.312,0.105-0.581,0.197-0.801c0,0-0.271,0.119-0.588,0.119c-1.937,0-3.013-1.398-3.013-2.874c0-0.884,0.354-1.79,1.139-2.468    C6.712,4.133,7.953,3.999,8.94,3.999h3.673l-1.102,0.664H10.226L10.226,4.663L10.226,4.663L10.226,4.663z M9.013,12.806    c-0.146-0.021-0.259-0.037-0.44-0.037c-0.165,0-1.138,0.045-1.904,0.301c-0.402,0.147-1.572,0.587-1.572,1.888    c0,1.302,1.228,2.271,3.183,2.271c1.753,0,2.682-0.879,2.682-2.012C10.961,14.276,10.403,13.795,9.013,12.806    C9.013,12.806,10.403,13.795,9.013,12.806L9.013,12.806L9.013,12.806z M9.564,9.304c0.426-0.422,0.477-1.07,0.477-1.4    c0-1.318-0.668-3.279-2.204-3.279c-0.482,0-1.063,0.224-1.36,0.59C6.163,5.6,6,6.212,6,6.688c0,1.225,0.735,3.094,2.398,3.094    C8.862,9.783,9.268,9.596,9.564,9.304L9.564,9.304z"/>
+  <rect x="15" y="7" sketch:type="MSShapeGroup" fill="#000000" width="1" height="5">
+  </rect>
+  <rect x="13" y="9" sketch:type="MSShapeGroup" fill="#000000" width="5" height="1">
+  </rect>
+ </g>
+</g>
+</g><g transform="translate(0,640)"><g>
+  <path fill="#FFFFFF" d="M11,10c1.104,0,2-0.896,2-2s-0.896-2-2-2C9.895,6,9.001,6.896,9.001,8S9.895,10,11,10z M11,11c-2,0-4,0.699-4,1.6V14h8v-1.4     C15,11.699,13,11,11,11z"/>
+  <circle fill="#FFFFFF" cx="5.5" cy="9.5" r="1.5"/>
+  <path fill="#FFFFFF" d="M5.5,12.125c-1.25,0-2.5,0.437-2.5,1V14h5v-0.875C8,12.562,6.75,12.125,5.5,12.125z"/>
+  <circle fill="#FFFFFF" cx="16.5" cy="9.5" r="1.5"/>
+  <path fill="#FFFFFF" d="M16.5,12.125c-1.25,0-2.5,0.437-2.5,1V14h5v-0.875C19,12.562,17.75,12.125,16.5,12.125z"/>
+</g>
+</g><g transform="translate(0,1280)"><polygon fill="#FFFFFF" points="9,13 15.5,19.5 17,18 12,13 17,8 15.5,6.5 "/>
+</g><g transform="translate(0,1680)">
+  <circle cx="14" cy="13" r="6" fill="#ffffff" filter="url(#glow)"/>
+  <polygon fill="#FFFFFF" points="9,13 15.5,19.5 17,18 12,13 17,8 15.5,6.5 "/>
+</g><g transform="translate(0,800)"><g transform="translate(0,200)">
+ <polygon fill="#FFFFFF" points="7.979,-189.655 4.168,-193.464 5.049,-194.345 7.979,-191.415 10.908,-194.345 11.787,-193.464     "/>
+</g>
+</g><g transform="translate(0,240)"><circle fill="#FFFFFF" cx="10.5" cy="4.5" r="1.5"/>
+<circle fill="#FFFFFF" cx="10.5" cy="10.5" r="1.5"/>
+<circle fill="#FFFFFF" cx="10.5" cy="16.5" r="1.5"/>
+</g><g transform="translate(0,1000)"><path fill="#000000" d="M16.25,6h-5.939L8.531,4.221C8.396,4.084,8.209,4,8,4H3.75C3.336,4,3,4.336,3,4.75v11.5C3,16.664,3.336,17,3.75,17h12.5   c0.414,0,0.75-0.336,0.75-0.75v-9.5C17,6.336,16.664,6,16.25,6z"/>
+</g><g transform="translate(0,1040)"><path fill="#AAAAAA" d="M22.051,12.838V8.083C22.051,3.619,18.432,0,13.968,0C9.504,0,5.885,3.619,5.885,8.083v4.754  c-0.678,0.106-1.201,0.695-1.201,1.401V26.58c0,0.781,0.639,1.42,1.42,1.42h15.72c0.781,0,1.42-0.639,1.42-1.42V14.238  C23.244,13.535,22.725,12.948,22.051,12.838z M13.968,3.277c2.594,0,4.697,2.103,4.697,4.697v4.844H9.271V7.974  C9.271,5.38,11.374,3.277,13.968,3.277z M15.061,20.826v3.642h-2.258v-3.7c-0.717-0.412-1.201-1.185-1.201-2.07  c0-1.317,1.068-2.385,2.385-2.385s2.385,1.067,2.385,2.385C16.371,19.627,15.838,20.434,15.061,20.826z"/>
+</g><g transform="translate(0,600)"><path fill="#FFFFFF" d="M8,8H7v11h11v-1H8V8z M9,7v10h10V7H9z"/>
+  <polygon points="13,9 13,10 15.293,10 10.793,14.5 11.5,15.207 16,10.707 16,13 17,13 17,9 "/>
+</g><g transform="translate(0,80)">
+  <circle cx="12.7" cy="13" r="7" fill="#ffffff" filter="url(#glow)"/>
+  <path fill="#FFFFFF" d="M8,8H7v11h11v-1H8V8z M9,7v10h10V7H9z"/>
+  <polygon points="13,9 13,10 15.293,10 10.793,14.5 11.5,15.207 16,10.707 16,13 17,13 17,9 "/>
+</g><g transform="translate(0,1800)"><g>
+ <polygon fill="#FFFFFF" points="15,11 15,15 6,15 6,6 10,6 10,4 6,4 4,4 4,6 4,15 4,17 6,17 15,17 17,17 17,15 17,11"/>
+ <polygon fill="#FFFFFF" points="12,5 16,5 16,9 18,9 18,5 18,3 16,3 12,3"/>
+ <polygon fill="#FFFFFF" points="11.131,11.287 9.719,9.871 15.34,4.245 16.752,5.661"/>
+</g>
+
+</g><g transform="translate(0,2000)"><path fill="#FFFFFF" d="M15.5,8h-11C3.672,8,3,8.67,3,9.5V14h3v3h8v-3h3V9.5C17,8.67,16.328,8,15.5,8z M13,16H7v-4h6V16z M14.5,10.25c-0.414,0-0.75-0.337-0.75-0.75c0-0.416,0.336-0.75,0.75-0.75s0.75,0.334,0.75,0.75 C15.25,9.913,14.914,10.25,14.5,10.25z M14,5H6v2h8V5z"/>
+</g><g transform="translate(0,920)"><path d="M15.5,8h-11C3.672,8,3,8.67,3,9.5V14h3v3h8v-3h3V9.5C17,8.67,16.328,8,15.5,8z M13,16H7v-4h6V16z M14.5,10.25  c-0.414,0-0.75-0.337-0.75-0.75c0-0.416,0.336-0.75,0.75-0.75s0.75,0.334,0.75,0.75C15.25,9.913,14.914,10.25,14.5,10.25z M14,5H6v2  h8V5z"/>
+</g><g transform="translate(0,1200)"><path fill="#FFFFFF" d="M10.5,3.5c-3.59,0-6.5,2.91-6.5,6.5s2.91,6.5,6.5,6.5s6.5-2.91,6.5-6.5S14.09,3.5,10.5,3.5z   M13.803,12.437h-1.678c0,0,0-0.812,0-0.812c0,0,0-1.625-1.625-1.625h-2.438l0.01-1.625h0.789c0.543,0,0.826,0,0.826-0.711v-0.914   h0.865c1.572,0,1.572-1.625,1.572-1.625v-0.38c2.241,0.695,3.875,2.787,3.875,5.255c0,1.423-0.548,2.717-1.438,3.694v-0.478   C14.562,12.66,14.358,12.437,13.803,12.437z M5,10c0-0.73,0.146-1.427,0.405-2.064l1.032,2.064   c0,0,3.25,2.43,3.25,2.438v0.742c0,0.883,0.812,0.811,0.812,0.883v1.438C7.468,15.5,5,13.033,5,10z"/>
+</g><g transform="translate(0,840)"><polygon points="7.101,17 3,12.899 3,7.1 7.101,3 12.899,3 17,7.1 17,12.899 12.899,17 "/>
+<circle fill="#F2F2F2" cx="10" cy="12.999" r="1.05"/>
+<polygon fill="#F2F2F2" points="9,6 11,6 10.65,11 9.35,11 "/>
+</g><g transform="translate(0,680)"><g xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill-rule="evenodd" sketch:type="MSPage">
+  <path sketch:type="MSShapeGroup" fill="#c1bfbf" d="m2.0044 6.6876l1.2789 2.2832 9.5747-8.9708 1.142 2.2593-10.218 9.7407-3.782-3.9102 2.0044-1.4022z"/>
+ </g>
+</g><g transform="translate(0,1480)"><polygon fill="#FFFFFF" points="17,13 10.5,19.5 9,18 14,13 9,8 10.5,6.5 "/>
+</g><g transform="translate(0,1640)">
+  <circle cx="12" cy="13" r="6" fill="#ffffff" filter="url(#glow)"/>
+  <polygon fill="#FFFFFF" points="17,13 10.5,19.5 9,18 14,13 9,8 10.5,6.5 "/>
+</g><g transform="translate(0,1360)"><polygon points="11,14 4.5,7.5 6,6 11,11 16,6 17.5,7.5 " fill="#ffffff"/>
+</g><g transform="translate(0,320)"><polygon points="11,6 4.5,12.5 6,14 11,9 16,14 17.5,12.5 " fill="#ffffff"/>
+</g><g transform="translate(0,520)"><path fill="#FFFFFF" d="M7,10c1.656,0,3-1.342,3-3c0-1.656-1.344-3-3-3S4,5.344,4,7C4,8.658,5.344,10,7,10z M17,8V5h-2v3h-3v2h3v3h2 v-3h3V8H17z M7,12c-2,0-6,1-6,3v2h12v-2C13,13,9,12,7,12z"/>
+</g><g transform="translate(0,440)"><path d="M7,10c1.656,0,3-1.342,3-3c0-1.656-1.344-3-3-3S4,5.344,4,7C4,8.658,5.344,10,7,10z M17,8V5h-2v3h-3v2h3v3h2v-3h3V8H17z   M7,12c-2,0-6,1-6,3v2h12v-2C13,13,9,12,7,12z"/>
+</g><g transform="translate(0,1120)"><polygon opacity="0.85" fill="#FFFFFF" enable-background="new" points="9,8 9,6 8,6 8,8 6,8 6,9 8,9 8,11 9,11 9,9 11,9 11,8"/>
+  <path fill="#FFFFFF" d="M16.742,15.501L14,12.758h-0.643l-0.684-0.683C13.5,11.113,14,9.866,14,8.5C14,5.462,11.537,3,8.5,3 S3,5.462,3,8.5S5.463,14,8.5,14c1.367,0,2.613-0.501,3.576-1.327l0.684,0.683V14l2.742,2.742c0.342,0.343,0.896,0.344,1.24,0.001 C17.086,16.398,17.086,15.845,16.742,15.501z M8.5,12.2c-2.044,0-3.7-1.657-3.7-3.7s1.656-3.7,3.7-3.7 c2.043,0,3.699,1.657,3.699,3.7S10.543,12.2,8.5,12.2z"/>
+</g><g transform="translate(0,1920)"><path fill="#FFFFFF" d="M16.742,15.501L14,12.758h-0.643l-0.684-0.684C13.5,11.113,14,9.866,14,8.5C14,5.463,11.537,3,8.5,3 S3,5.463,3,8.5S5.463,14,8.5,14c1.367,0,2.613-0.502,3.576-1.326l0.684,0.682V14l2.742,2.742c0.342,0.343,0.896,0.344,1.24,0.001 C17.086,16.398,17.086,15.845,16.742,15.501z M8.5,12.2c-2.044,0-3.7-1.657-3.7-3.7s1.656-3.7,3.7-3.7 c2.043,0,3.699,1.657,3.699,3.7S10.543,12.2,8.5,12.2z"/>
+  <polygon opacity="0.85" fill="#FFFFFF" enable-background="new" points="9,8 8,8 6,8 6,9 8,9 9,9 11,9 11,8 "/>
+</g></svg>

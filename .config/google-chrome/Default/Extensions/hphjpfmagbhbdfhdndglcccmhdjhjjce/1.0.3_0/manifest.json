@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "js/rtmloader.js" ],
+      "matches": [ "http://mail.google.com/*", "https://mail.google.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Task management goodness.",
+   "icons": {
+      "128": "img/desktop_128x128.png",
+      "16": "img/desktop_16x16.png",
+      "32": "img/desktop_32x32.png",
+      "48": "img/desktop_48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLtX+9Zv0xsTJgUc74Wth0RorH3VGPvi1ztjwOCZ+40FPv2US4Mwn+HHvHu2cMjK1M93H1zhgMDZiBfZvTefkXN8v0vzWGlK+O1EcwydybFlp3swxhbxDRqAQHUcn6R5xuYe2C6uAXL5xKi+0mbWWVAzA3gqH11P9hCHRlb54AqwIDAQAB",
+   "manifest_version": 2,
+   "name": "Remember The Milk for Gmail",
+   "permissions": [ "http://www.rememberthemilk.com/*", "https://www.rememberthemilk.com/*", "http://www.google.com/calendar/feeds/*", "https://www.google.com/calendar/feeds/*", "http://mail.google.com/mail/*", "https://mail.google.com/mail/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.3"
+}
