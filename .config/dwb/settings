@@ -1,7 +1,7 @@
 [default]
 javascript-can-access-clipboard=false
 hint-offset-top=0
-file-sync-interval=120
+file-sync-interval=0
 download-gradient-end=#00aa00
 status-allowed-color=#00ff00
 tab-number-color=#2aa198
@@ -136,7 +136,7 @@ minimum-font-size=5
 font-completion=
 enable-spatial-navigation=false
 block-insecure-content=false
-download-directory=
+download-directory=/home/pvilim/Downloads
 adblocker=true
 download-external-command=xterm -e wget dwb_uri -O dwb_output --load-cookies dwb_cookies
 user-stylesheet-uri=

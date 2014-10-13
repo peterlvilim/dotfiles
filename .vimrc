@@ -1,3 +1,4 @@
+execute pathogen#infect() 
 syntax on
 set background=dark
 set nocompatible
@@ -47,7 +48,6 @@ map checkspell :setlocal spell spelllang=en_us<CR>
 "  %    :  saves and restores the buffer list
 "  n... :  where to save the viminfo files
 set viminfo='10,\"100,:20,%,n~/.viminfo
-set viminfo='10,\"100,:20,%,n~/.viminfo
 
 nnoremap ; :
 
@@ -65,3 +65,5 @@ set incsearch " show search results as you type
 
 set pastetoggle=<F2>
 set number
+
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
