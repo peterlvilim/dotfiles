@@ -67,3 +67,6 @@ set pastetoggle=<F2>
 set number
 
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+set laststatus=2
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '◀'
