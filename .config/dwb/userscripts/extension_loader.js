@@ -93,3 +93,18 @@ extensions.load("contenthandler", {
 //<cookies___SCRIPT
 extensions.load("cookies");
 //>cookies___SCRIPT
+//<googledocs___SCRIPT
+extensions.load("googledocs", {
+//<googledocs___CONFIG
+  // An array of filename extensions, matching urls will be
+  // loaded  with Google Docs, the extensions are case
+  // insensitive. The default value is 
+  // [ "doc", "docx", "xls", "xlsx", "odt", "ods" ]
+  // Possible filetypes are
+  // "DOC", "DOCX", "XLS", "XLSX", "PPT", "PPTX", "ODT", "ODS",
+  // "PDF", "PAGES", "AI", "PSD", "TIFF", "DXF", "SVG", "EPS",
+  // "PS", "TTF", "OTF", "XPS", "ZIP" and "RAR".
+  filetypes: [ "doc", "docx", "xls", "xlsx", "odt", "ods" ]
+//>googledocs___CONFIG
+});
+//>googledocs___SCRIPT
