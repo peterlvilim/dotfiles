@@ -13,3 +13,4 @@ spotify
 .config/*
 .config/dwb/default/history
 .config/dwb/default/session
+bin/.config
