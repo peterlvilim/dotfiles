@@ -22,14 +22,6 @@ set $custom #001b26
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below. ISO 10646 = Unicode
 font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-# The font above is very space-efficient, that is, it looks good, sharp and
-# clear in small sizes. However, if you need a lot of unicode glyphs or
-# right-to-left text rendering, you should instead use pango for rendering and
-# chose a FreeType font, such as:
-# font pango:DejaVu Sans Mono 10
-
-# Use Mouse+$mod to drag floating windows to their wanted position
-floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
@@ -113,13 +105,13 @@ bar {
         }
 }
 
-client.focused $red $red $baseA3 $red
-client.unfocused $orange $orange $baseA3 $orange
-client.focused_inactive $orange $orange $baseA3 $orange
+client.focused $baseA3 $red $baseA3 $red
+client.unfocused $baseA3 $orange $baseA3 $orange
+client.focused_inactive $baseA3 $orange $baseA3 $orange
 
 #new_window 1pixel
 for_window [title=" - Google Chrome$"] border none
-for_window [title="^dwb"] border pixel 2
+#for_window [title="^dwb"] border pixel 2
 for_window [title="Spotify Premium - Linux Preview"] border none
 bindsym $MOD+SHIFT+s exec spotify
 bindsym $MOD+SHIFT+g exec --no-startup-id google-chrome
