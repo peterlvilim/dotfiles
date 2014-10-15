@@ -1,5 +1,24 @@
 set $mod Mod1
 
+#colors
+set $yellow   #b58900
+set $orange   #cb4b16
+set $red  #dc322f
+set $magenta  #d33682
+set $violet   #6c71c4
+set $blue #268bd2
+set $cyan #2aa198
+set $green    #859900
+set $baseA3 #002b36
+set $baseA2 #073642
+set $baseA1 #586e75
+set $baseA0 #657b83
+set $baseB0 #839496
+set $baseB1 #93a1a1
+set $baseB2 #eee8d5
+set $baseB3 #fdf6e3
+set $custom #001b26
+
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below. ISO 10646 = Unicode
 font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -94,9 +113,9 @@ bar {
         }
 }
 
-client.focused_inactive #333333 #5F676A #ffffff #484e50
-client.unfocused        #333333 #424242 #888888 #292d2e
-client.urgent           #C10004 #900000 #ffffff #900000
+client.focused $red $red $baseA3 $red
+client.unfocused $yellow $yellow $baseA3 $yellow
+client.focused_inactive $yellow $yellow $baseA3 $yellow
 
 #new_window 1pixel
 for_window [title=" - Google Chrome$"] border none
