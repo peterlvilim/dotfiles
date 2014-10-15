@@ -128,13 +128,6 @@ bindsym $MOD+SHIFT+d exec --no-startup-id dwb
 bindsym $MOD+SHIFT+x exec ~/.i3/lock.sh
 bindsym $MOD+SHIFT+z exec ~/.i3/suspend.sh
 
-workspace 1 output DFP7
-workspace 2 output DFP6
-workspace 3 output DFP1
-workspace 7 output DFP7
-workspace 8 output DFP6
-workspace 9 output DFP1
-
 bindsym $MOD+Up exec --no-startup-id amixer set Master 5%+
 bindsym $MOD+Down exec --no-startup-id amixer set Master 5%-
 bindsym $MOD+Left exec --no-startup-id amixer set Master toggle
