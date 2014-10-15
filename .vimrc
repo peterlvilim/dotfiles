@@ -68,6 +68,11 @@ set number
 
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 set laststatus=2
-let g:airline_left_sep = '▶'
-let g:airline_right_sep = '◀'
 set shortmess=I
+let g:airline_powerline_fonts = 1
+let g:promptline_preset = {
+        \'a' : [ promptline#slices#host() ],
+        \'c' : [ promptline#slices#cwd() ],
+        \'x' : [ promptline#slices#git_status() ],
+        \'y' : [ promptline#slices#vcs_branch() ],
+        \'warn' : [ promptline#slices#last_exit_code() ]}
