@@ -1,0 +1,328 @@
+Delivered-To: peterlvilim@gmail.com
+Received: by 10.70.128.129 with SMTP id no1csp119119pdb;
+        Fri, 21 Feb 2014 14:38:01 -0800 (PST)
+X-Received: by 10.66.148.230 with SMTP id tv6mr11818367pab.155.1393022281212;
+        Fri, 21 Feb 2014 14:38:01 -0800 (PST)
+Return-Path: <bounces+145129-17dd-peterlvilim=gmail.com@e3.kickstarter.com>
+Received: from o3.e3.kickstarter.com (o3.e3.kickstarter.com. [74.63.234.84])
+        by mx.google.com with SMTP id k7si8557945pbl.161.2014.02.21.14.38.00
+        for <peterlvilim@gmail.com>;
+        Fri, 21 Feb 2014 14:38:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+145129-17dd-peterlvilim=gmail.com@e3.kickstarter.com designates 74.63.234.84 as permitted sender) client-ip=74.63.234.84;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounces+145129-17dd-peterlvilim=gmail.com@e3.kickstarter.com designates 74.63.234.84 as permitted sender) smtp.mail=bounces+145129-17dd-peterlvilim=gmail.com@e3.kickstarter.com;
+       dkim=pass header.i=@e3.kickstarter.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=e3.kickstarter.com; 
+	h=from:reply-to:to:subject:mime-version:content-type:content-transfer-encoding; 
+	s=smtpapi; bh=9D2lHppxLqLCk1Vlcpb7BYckzPc=; b=ZKGJZupx26wXxFVu+c
+	+Wtnk6oqFBnncOqy8YGW9nMGxK8ZL6LDwsCuWfpxJMzvJqlhgK5sWJdWwsU218Pj
+	aRUTLcm4BoqqFUzkrW/jsaUoFT3PRmWceEoUQ4NG6Wsv8mtIRM/wkGeFEjkA1cNy
+	qrMM5hY7Hw21HjWV4rfJYsGW4=
+Received: by mf151.sendgrid.net with SMTP id mf151.30574.5307D4378
+        Fri, 21 Feb 2014 22:33:27 +0000 (UTC)
+Received: from kickstarter.com (ec2-107-21-128-254.compute-1.amazonaws.com [107.21.128.254])
+	by ismtpd-023 (SG) with ESMTP id 1445694f86f.5310.282bd7
+	for <support@kickstarter.com>; Fri, 21 Feb 2014 22:33:27 +0000 (GMT)
+Return-Path: <returned@kickstarter.com>
+Date: Fri, 21 Feb 2014 22:31:34 +0000
+From: Kickstarter <no-reply@kickstarter.com>
+Reply-To: No Reply <no-reply@kickstarter.com>
+To: peterlvilim@gmail.com
+Message-ID: <5307d3fb580d3_57193fc6a27edea44063@ip-10-149-5-30.mail>
+Subject: Project Update #33: Obduction by Cyan, Inc.
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5307d3c6e36c2_57193fc6a27edea44053b";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-SIG: 873363ebcdd0218d35ced123b4a4197078acf3a3
+X-SG-EID: 3Au7GVCdC6piL8V688SPB6jDJq2Qak00csY4YmeD6ipWzHbYgXwLou3OwbE8ZAGKcAnwn4pycdzRmInX5rHXWUXV9OcGt6x66a5Y2Degjw9UysVb0wHjtjIilsdYiehIz0P+VPAf3sCNxORldf0e+V5zzXcAsUo9vNAQxsEBPmo=
+
+----==_mimepart_5307d3c6e36c2_57193fc6a27edea44053b
+Message-ID: <temp@test>
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Backer Forums, Strata Design 3D, and more... (For Backers Only)
+Only 7 Days left to help fund Obduction via PayPal!
+
+
+
+Current Financials
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Here's where we're at: Kickstarter - $1,275,299.31, PayPal - $92,469.17 for=
+ a grand total (so far) of 1,367,768.48. The PayPal campaign will continue =
+until midnight on February 28th PST. This is your last chance to donate and=
+ receive the rewards offered in the funding campaign!
+
+Share www.obductiongame.com (http://www.obductiongame.com) with all your fr=
+iends.
+
+Backer's Forum
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Just another reminder, we have officially opened the Backer's forum! Log in=
+to your Forum account (http://forums.cyan.com/) at Cyan. If you don't see t=
+he Backer's section under the Obduction heading please submit a ticket on o=
+ur support site (http://support.cyan.com/).
+
+Become the Strata 3D Artist
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D
+
+Strata has emailed backers regarding the fulfillment of the *Strata Design =
+3D CX*. If you are backer at this level or higher and did NOT receive the e=
+mail please submit a ticket on our support site (http://support.cyan.com/).
+
+Have fun becoming the artist with=C2=A0Strata Design 3D CX!
+
+Spam settings
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+To make sure we've got a line of communication, please make sure you adjust=
+ your spam settings so you can receive emails from backers@cyan.com. Thanks!
+
+---
+
+Oh, and happy Birthday Karl!
+
+--------------------
+
+View this update:
+https://www.kickstarter.com/projects/cyaninc/obduction/posts/755450?at=3DBA=
+h7CDoMcG9zdF9pZGkD%2BoYLSSIIdWlkBjoGRVRpA9TBcUkiC2V4cGlyeQY7BlRJIhgyMDE0LTA=
+zLTIxIDIxOjMxOjM0BjsGVA%3D%3D--02dd3c58312d7fe059e9f305cfd55273b81feaa3&ref=
+=3Dbacker_project_update
+
+=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=
+=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=
+=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=
+=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94=E2=
+=80=94=E2=80=94=E2=80=94=E2=80=94=E2=80=94
+Unsubscribe from this project's updates with one click:
+https://www.kickstarter.com/unsubscribe/BAh7CDoMcG9zdF9pZGkD%2BoYLSSIIdWlkB=
+joGRVRpA9TBcUkiC2V4cGlyeQY7BlRJIhgyMDE0LTAzLTIxIDIxOjMxOjM0BjsGVA%3D%3D--02=
+dd3c58312d7fe059e9f305cfd55273b81feaa3/12579899?ref=3Demail
+
+----==_mimepart_5307d3c6e36c2_57193fc6a27edea44053b
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type">
+<meta content=3D"width=3Ddevice-width, user-scalable=3Dno, initial-scale=3D=
+1.0, minimum-scale=3D1.0, maximum-scale=3D1.0" name=3D"viewport">
+<title></title>
+<style data-premailer=3D"ignore">
+<![CDATA[
+    body {-webkit-text-size-adjust: none;}
+    @media all and (max-width: 540px) {
+      *[class=3Dwrapper] {width: 100% !important;}
+      *[class=3Dcontent] {width: 100% !important; padding: 20px 0px !import=
+ant;}
+      *[class=3Dgrid2] {width: 100% !important;}
+      *[class=3Dgrid3] {width: 100% !important; height: auto !important;}
+      *[class=3Dgrid4] {width: 100% !important;}
+      *[class=3Dgrid3] img {width: 100% !important; height: auto !important=
+;}
+      *[class=3Dstats] {font-size: 14px !important; line-height:17px !impor=
+tant;}
+      *[class=3Dstats] td {padding-left: 5px !important;padding-right: 5px =
+!important;}
+    }
+]]>
+</style>
+</head>
+<body style=3D"background-color: #ffffff; display: block; font-size: 16px; =
+height: 100%; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top=
+: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; =
+width: 100%" bgcolor=3D"#ffffff">
+<table bgcolor=3D"#ffffff" cellpadding=3D"0" cellspacing=3D"0" height=3D"au=
+to" style=3D"background-color: #ffffff; border-bottom-color: transparent; b=
+order-bottom-style: none; border-bottom-width: 0; border-collapse: collapse=
+; border-left-color: transparent; border-left-style: none; border-left-widt=
+h: 0; border-right-color: transparent; border-right-style: none; border-rig=
+ht-width: 0; border-spacing: 0; border-top-color: transparent; border-top-s=
+tyle: none; border-top-width: 0; margin-bottom: 0; margin-left: 0; margin-r=
+ight: 0; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: =
+0; padding-top: 0" width=3D"100%">
+<tr bgcolor=3D"#ffffff" valign=3D"top">
+<td bgcolor=3D"#ffffff" style=3D"font-size: 1px">
+=C2=A0
+</td>
+<td bgcolor=3D"#ffffff" style=3D"padding-bottom: 20px; padding-left: 20px; =
+padding-right: 20px; padding-top: 40px">
+<table align=3D"center" bgcolor=3D"#ffffff" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"wrapper" style=3D"background-color: #ffffff; color: #213217=
+; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16p=
+x; line-height: 24px; margin-bottom: 0; margin-left: auto; margin-right: au=
+to; margin-top: 0" width=3D"500">
+<tr>
+<td class=3D"content" style=3D"padding-bottom: 20px; padding-left: 20px; pa=
+dding-right: 20px; padding-top: 20px">
+<h2 style=3D"color: #213217; font-size: 22px; font-weight: normal; line-hei=
+ght: 30px; margin-bottom: 10px; margin-left: 0; margin-right: 0; margin-top=
+: 0">
+<a href=3D"https://www.kickstarter.com/projects/cyaninc/obduction/posts/755=
+450?at=3DBAh7CDoMcG9zdF9pZGkD%2BoYLSSIIdWlkBjoGRVRpA9TBcUkiC2V4cGlyeQY7BlRJ=
+IhgyMDE0LTAzLTIxIDIxOjMxOjM0BjsGVA%3D%3D--02dd3c58312d7fe059e9f305cfd55273b=
+81feaa3&amp;ref=3Dbacker_project_update" style=3D"color: #0b1902; text-deco=
+ration: none">
+Project Update #33: Backer Forums, Strata Design 3D, and more...
+</a>
+</h2>
+<span style=3D"color: #73ce00; font-family: Helvetica, Arial, sans-serif; f=
+ont-size: 12px; font-weight: bold; line-height: 20px; margin-right: 10px">
+<img alt=3D"Backer_white" height=3D"19" src=3D"https://d297h9he240fqh.cloud=
+front.net/assets/icons/backer_white-95502e2adb38cf5c7fb9a70083a0d7d0.png" s=
+tyle=3D"margin-right: 3px; position: relative; top: 4px" width=3D"19">
+For backers only
+</span>
+<span style=3D"color: #757a6f; font-family: Helvetica, Arial, sans-serif; f=
+ont-size: 12px; line-height: 20px; margin-right: 10px">Posted by Cyan, Inc.=
+</span>
+<a href=3D"https://www.kickstarter.com/projects/cyaninc/obduction/posts/755=
+450/like?at=3DBAh7CDoMcG9zdF9pZGkD%2BoYLSSIIdWlkBjoGRVRpA9TBcUkiC2V4cGlyeQY=
+7BlRJIhgyMDE0LTAzLTIxIDIxOjMxOjM0BjsGVA%3D%3D--02dd3c58312d7fe059e9f305cfd5=
+5273b81feaa3&amp;ref=3Dbacker_project_update" style=3D"color: #757a6f; font=
+-family: Helvetica, Arial, sans-serif; font-size: 12px; font-weight: bold; =
+line-height: 20px; text-decoration: none" target=3D"_blank">=E2=99=A5
+Like
+</a>
+</td>
+</tr>
+<tr>
+<td class=3D"content" style=3D"padding-bottom: 20px; padding-left: 20px; pa=
+dding-right: 20px; padding-top: 20px">
+<div style=3D"color: #0a1901; font-family: Helvetica, Arial, sans-serif; fo=
+nt-size: 16px; line-height: 1.5; margin-bottom: 20px; word-wrap: break-word=
+">
+<p><i>Only 7 Days left to help fund Obduction via PayPal!</i></p>
+<div class=3D"template asset">
+<figure style=3D"margin-bottom: 20px; margin-left: 0; margin-right: 0; marg=
+in-top: 0; text-align: center"><img alt=3D'Obduction "tabletop" play-throug=
+h.' src=3D"https://s3.amazonaws.com/ksr/assets/001/662/711/02b3b7aad56f5691=
+4ce3cc444c24da0e_large.JPG?1393018221" style=3D"border-bottom-width: 0; bor=
+der-left-width: 0; border-right-width: 0; border-top-width: 0; height: auto=
+; max-width: 700px; vertical-align: bottom; width: 100%"><figcaption>Obduct=
+ion "tabletop" play-through.</figcaption></figure>
+</div>
+<h1>Current Financials</h1>
+<p>Here's where we're at: Kickstarter - $1,275,299.31, PayPal - $92,469.17 =
+for a grand total (so far) of 1,367,768.48. The PayPal campaign will contin=
+ue until midnight on February 28th PST. This is your last chance to donate =
+and receive the rewards offered in the funding campaign!</p>
+<p>Share <a href=3D"http://www.obductiongame.com" target=3D"_blank">www.obd=
+uctiongame.com</a> with all your friends. </p>
+<h1>Backer's Forum</h1>
+<p>Just another reminder, we have officially opened the Backer's forum! Log=
+ into your <a href=3D"http://forums.cyan.com/" target=3D"_blank">Forum acco=
+unt</a> at Cyan. If you don't see the Backer's section under the Obduction =
+heading please submit a ticket on our <a href=3D"http://support.cyan.com/" =
+target=3D"_blank">support site</a>.</p>
+<h1>Become the Strata 3D Artist</h1>
+<p>Strata has emailed backers regarding the fulfillment of the <b>Strata De=
+sign 3D CX</b>. If you are backer at this level or higher and did NOT recei=
+ve the email please submit a ticket on our <a href=3D"http://support.cyan.c=
+om/" target=3D"_blank">support site</a>.</p>
+<p>Have fun becoming the artist with=C2=A0Strata Design 3D CX!</p>
+<h1>Spam settings</h1>
+<p>To make sure we've got a line of communication, please make sure you adj=
+ust your spam settings so you can receive emails from backers@cyan.com. Tha=
+nks!</p>
+<p>---</p>
+<p>Oh, and happy Birthday Karl!</p>
+<div class=3D"template asset">
+<figure style=3D"margin-bottom: 20px; margin-left: 0; margin-right: 0; marg=
+in-top: 0; text-align: center"><img alt=3D"" src=3D"https://s3.amazonaws.co=
+m/ksr/assets/001/662/747/0f8cb832c9b9b637632feebd9fa5f34b_large.jpg?1393018=
+624" style=3D"border-bottom-width: 0; border-left-width: 0; border-right-wi=
+dth: 0; border-top-width: 0; height: auto; max-width: 324px; vertical-align=
+: bottom; width: 100%"></figure>
+</div>
+</div>
+<ul style=3D"list-style-type: none; margin-bottom: 20px; margin-left: 0; ma=
+rgin-right: 0; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-r=
+ight: 0; padding-top: 0"></ul>
+</td>
+</tr>
+<tr>
+<td class=3D"content" style=3D"padding-bottom: 20px; padding-left: 20px; pa=
+dding-right: 20px; padding-top: 20px; text-align: center" align=3D"center">
+<a href=3D"https://www.kickstarter.com/projects/cyaninc/obduction/posts/755=
+450/like?at=3DBAh7CDoMcG9zdF9pZGkD%2BoYLSSIIdWlkBjoGRVRpA9TBcUkiC2V4cGlyeQY=
+7BlRJIhgyMDE0LTAzLTIxIDIxOjMxOjM0BjsGVA%3D%3D--02dd3c58312d7fe059e9f305cfd5=
+5273b81feaa3&amp;ref=3Dbacker_project_update" style=3D"background-color: #e=
+ef2ea; border-radius: 6px; color: #757a6f; display: inline-block; font-fami=
+ly: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; font-wei=
+ght: bold; height: 14px; line-height: 14px; margin-bottom: 5px; margin-left=
+: 5px; margin-right: 5px; margin-top: 5px; padding-bottom: 12px; padding-le=
+ft: 20px; padding-right: 20px; padding-top: 12px; text-align: center; text-=
+decoration: none" target=3D"_blank">=E2=99=A5
+Like
+</a><a href=3D"https://www.kickstarter.com/projects/cyaninc/obduction/posts=
+/755450?at=3DBAh7CDoMcG9zdF9pZGkD%2BoYLSSIIdWlkBjoGRVRpA9TBcUkiC2V4cGlyeQY7=
+BlRJIhgyMDE0LTAzLTIxIDIxOjMxOjM0BjsGVA%3D%3D--02dd3c58312d7fe059e9f305cfd55=
+273b81feaa3&amp;ref=3Dbacker_project_update" style=3D"background-color: #ee=
+f2ea; border-radius: 6px; color: #757a6f; display: inline-block; font-famil=
+y: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; font-weig=
+ht: bold; height: 14px; line-height: 14px; margin-bottom: 5px; margin-left:=
+ 5px; margin-right: 5px; margin-top: 5px; padding-bottom: 12px; padding-lef=
+t: 20px; padding-right: 20px; padding-top: 12px; text-align: center; text-d=
+ecoration: none" target=3D"_blank">Comment on Kickstarter
+</a>
+</td>
+</tr>
+</table>
+</td>
+<td bgcolor=3D"#ffffff" style=3D"font-size: 1px">
+=C2=A0
+</td>
+</tr>
+<tr bgcolor=3D"#ffffff" valign=3D"top">
+<td bgcolor=3D"#ffffff" style=3D"font-size: 1px">
+=C2=A0
+</td>
+<td align=3D"center" style=3D"padding-bottom: 40px; padding-left: 20px; pad=
+ding-right: 20px; padding-top: 20px">
+<table bgcolor=3D"#ffffff" cellpadding=3D"0" cellspacing=3D"0" class=3D"con=
+tent" width=3D"460"><tr>
+<td style=3D"color: #777e70; display: block; font-family: Helvetica Neue, H=
+elvetica, Arial, sans-serif; font-size: 12px; line-height: 16px">
+<p style=3D"margin-bottom: 20px; margin-left: 0; margin-right: 0; margin-to=
+p: 30px">
+<img alt=3D"Kickstarter" border=3D"0" height=3D"14" src=3D"https://d297h9he=
+240fqh.cloudfront.net/assets/emails/kickstarter-logo-46e39b6e45688a8ca71c7c=
+89e5ff2cfa.png" style=3D"display: inline-block" width=3D"120"></p>
+<p style=3D"margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: =
+0">
+Want to get these notifications straight to your iPhone?
+<a href=3D"https://www.kickstarter.com/download?ref=3Dbacker_project_update=
+" style=3D"color: #0096bb; text-decoration: none">Get the Kickstarter app f=
+or iPhone.</a>
+</p>
+<p>
+<a href=3D"https://www.kickstarter.com/unsubscribe/BAh7CDoMcG9zdF9pZGkD%2Bo=
+YLSSIIdWlkBjoGRVRpA9TBcUkiC2V4cGlyeQY7BlRJIhgyMDE0LTAzLTIxIDIxOjMxOjM0BjsGV=
+A%3D%3D--02dd3c58312d7fe059e9f305cfd55273b81feaa3/12579899?ref=3Demail" sty=
+le=3D"color: #0096bb; text-decoration: none">Unsubscribe</a>
+from this project's updates with one click
+</p>
+
+</td>
+</tr></table>
+</td>
+<td bgcolor=3D"#ffffff" style=3D"font-size: 1px">
+=C2=A0
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+----==_mimepart_5307d3c6e36c2_57193fc6a27edea44053b--

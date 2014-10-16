@@ -1,0 +1,146 @@
+Delivered-To: peterlvilim@gmail.com
+Received: by 10.70.74.71 with SMTP id r7csp259575pdv;
+        Thu, 6 Mar 2014 11:42:29 -0800 (PST)
+X-Received: by 10.52.12.36 with SMTP id v4mr5437820vdb.20.1394134948865;
+        Thu, 06 Mar 2014 11:42:28 -0800 (PST)
+Return-Path: <lexu1@illinois.edu>
+Received: from mail-vc0-f172.google.com (mail-vc0-f172.google.com [209.85.220.172])
+        by mx.google.com with ESMTPS id ry8si2118457vdc.97.2014.03.06.11.42.28
+        for <peterlvilim@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 06 Mar 2014 11:42:28 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.220.172 is neither permitted nor denied by domain of lexu1@illinois.edu) client-ip=209.85.220.172;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 209.85.220.172 is neither permitted nor denied by domain of lexu1@illinois.edu) smtp.mail=lexu1@illinois.edu
+Received: by mail-vc0-f172.google.com with SMTP id lf12so3126729vcb.31
+        for <peterlvilim@gmail.com>; Thu, 06 Mar 2014 11:42:28 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type;
+        bh=eQAW3tYFXgApgrymGL//tFosrK28i9H5vWFt/F4ys8I=;
+        b=Idq/egT7+vpgmU51A/Rtz6qH6b+FmFgedatGL0pbP/LRpoETYsJJpDKFtoBTki4Fkq
+         BPLwKObxNORRH8Ua6p5v2CwE1kW/uSJdrEZqcwj1cl5zVFFjtZUBL0b8aggDPcYzZr/u
+         oC4LO83J+dfs20s4TlyxZZ1gxAh8uYaq4wz+kSQ0DVMDSQ+prAlF3ajeNo6NORc0743u
+         xeiC4UUO0S2BIZ6dSVS4W7yk8RSpvanTR40ZDv/OlZMj5GNkCiRkWhfsmrmd1PrVbsdV
+         1FbG+5lBUVxj7imExEGtaE5nuPrRkEoJA0C3T9jWYXRIDSAFzIDM6e9QPoRmSe7cKTIE
+         r8Cg==
+X-Gm-Message-State: ALoCoQm2py9XVIJCP27MTzNUKT1po06SyJgcX5+SbbUuO2R6pQGLqWlJ27ooveD9llCcxPikzpgT
+MIME-Version: 1.0
+X-Received: by 10.58.168.142 with SMTP id zw14mr1710529veb.33.1394134948282;
+ Thu, 06 Mar 2014 11:42:28 -0800 (PST)
+Received: by 10.58.38.132 with HTTP; Thu, 6 Mar 2014 11:42:28 -0800 (PST)
+In-Reply-To: <CAD6gYpKuKK+ppFFnutohXEWEi3pRS4R713kPNkC-vj7=od9gwA@mail.gmail.com>
+References: <CAD6gYpKb6QPVQxGM=MjE8zq+cwuKksszPg9du4-UBkNhR0PMPw@mail.gmail.com>
+	<CANdvVYE_5N3Aoz_3H5LP1-eWqyv7SpR8X4709i+9PphKiss7QQ@mail.gmail.com>
+	<CAD6gYpKuKK+ppFFnutohXEWEi3pRS4R713kPNkC-vj7=od9gwA@mail.gmail.com>
+Date: Thu, 6 Mar 2014 13:42:28 -0600
+Message-ID: <CANdvVYGTZYoFwg66=coBEsgNSZxMgy5bc=gY0DvS-8oD9oWSpA@mail.gmail.com>
+Subject: Re: CS 433 - HW3
+From: Le Xu <lexu1@illinois.edu>
+To: Peter Vilim <peterlvilim@gmail.com>
+Content-Type: multipart/alternative; boundary=047d7b6da0285c8f9404f3f5560b
+
+--047d7b6da0285c8f9404f3f5560b
+Content-Type: text/plain; charset=ISO-8859-1
+
+I haven't look at your solution very carefully since I just finished my
+homework myself. But I'm pretty sure speculation required an ordered commit
+:)
+
+
+On Thu, Mar 6, 2014 at 12:34 PM, Peter Vilim <peterlvilim@gmail.com> wrote:
+
+> Good call.  Thanks.
+>
+>
+> On Thu, Mar 6, 2014 at 12:33 PM, Le Xu <lexu1@illinois.edu> wrote:
+>
+>> i think for prob1 part d you are supposed to commit by order?
+>>
+>>
+>> On Thu, Mar 6, 2014 at 3:21 AM, Peter Vilim <peterlvilim@gmail.com>wrote:
+>>
+>>> Le,
+>>>
+>>> Here's my HW3 if you want to check it.
+>>>
+>>> Couple notes:
+>>> 1. I haven't done much checking.  In particular problem 1 probably has a
+>>> bunch of stupid errors that I'll find when I go through and double check it
+>>> myself.
+>>>
+>>> 2. If you don't have tons of time to look at this you could also send me
+>>> your copy, and I could look through it and compare it to mine.
+>>>
+>>> -Peter
+>>>
+>>
+>>
+>>
+>> --
+>> Le Xu
+>> Computer Science, College of Engineering
+>> University of Illinois at Urbana-Champaign
+>>
+>
+>
+
+
+-- 
+Le Xu
+Computer Science, College of Engineering
+University of Illinois at Urbana-Champaign
+
+--047d7b6da0285c8f9404f3f5560b
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I haven&#39;t look at your solution very carefully since I=
+ just finished my homework myself. But I&#39;m pretty sure speculation requ=
+ired an ordered commit :)</div><div class=3D"gmail_extra"><br><br><div clas=
+s=3D"gmail_quote">
+On Thu, Mar 6, 2014 at 12:34 PM, Peter Vilim <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:peterlvilim@gmail.com" target=3D"_blank">peterlvilim@gmail.com</=
+a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0=
+ 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+<div dir=3D"ltr">Good call. =A0Thanks.</div><div class=3D"HOEnZb"><div clas=
+s=3D"h5"><div class=3D"gmail_extra"><br><br><div class=3D"gmail_quote">On T=
+hu, Mar 6, 2014 at 12:33 PM, Le Xu <span dir=3D"ltr">&lt;<a href=3D"mailto:=
+lexu1@illinois.edu" target=3D"_blank">lexu1@illinois.edu</a>&gt;</span> wro=
+te:<br>
+
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex"><div dir=3D"ltr">i think for prob1 part d yo=
+u are supposed to commit by order?</div><div class=3D"gmail_extra"><div><di=
+v>
+<br><br><div class=3D"gmail_quote">On Thu, Mar 6, 2014 at 3:21 AM, Peter Vi=
+lim <span dir=3D"ltr">&lt;<a href=3D"mailto:peterlvilim@gmail.com" target=
+=3D"_blank">peterlvilim@gmail.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex"><div dir=3D"ltr">Le,<div><br></div><div>Here=
+&#39;s my HW3 if you want to check it.<div><br></div><div>Couple notes:</di=
+v>
+
+
+<div>1. I haven&#39;t done much checking. =A0In particular problem 1 probab=
+ly has a bunch of stupid errors that I&#39;ll find when I go through and do=
+uble check it myself.</div>
+<div><br></div><div>2. If you don&#39;t have tons of time to look at this y=
+ou could also send me your copy, and I could look through it and compare it=
+ to mine.</div><span><font color=3D"#888888"><div><br></div>
+<div>-Peter</div></font></span></div></div>
+</blockquote></div><br><br clear=3D"all"><div><br></div></div></div><span><=
+font color=3D"#888888">-- <br><div dir=3D"ltr">Le Xu<div>Computer Science,=
+=A0College of Engineering</div><div>University of Illinois at Urbana-Champa=
+ign</div>
+
+</div>
+</font></span></div>
+</blockquote></div><br></div>
+</div></div></blockquote></div><br><br clear=3D"all"><div><br></div>-- <br>=
+<div dir=3D"ltr">Le Xu<div>Computer Science,=A0College of Engineering</div>=
+<div>University of Illinois at Urbana-Champaign</div></div>
+</div>
+
+--047d7b6da0285c8f9404f3f5560b--
