@@ -16,3 +16,4 @@ spotify
 bin/.config
 .mutt/messages
 .mutt/headers
+.irssi/config.autosave

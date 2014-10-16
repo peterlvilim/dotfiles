@@ -18,3 +18,7 @@ set header_cache = ~/.mutt/headers
 set message_cachedir = ~/.mutt/messages
 set text_flowed=yes
 
+set sort='reverse-threads'
+set sort_aux='last-date-received'
+set imap_check_subscribed
+
