@@ -1,0 +1,24 @@
+settings = {
+  "fe-common/core" = {
+    # Solarized
+    theme = "solarized-universal";
+    hilight_color = "= %R";
+  };
+  core = {
+    real_name = "Peter Vilim";
+    user_name = "pvilim";
+    nick = "pvilim";
+  };
+  "fe-text" = { actlist_sort = "refnum"; };
+};
+hilights = (
+  { text = "pvilim"; color = "%M"; nick = "yes"; word = "yes"; }
+);
+statusbar = {
+  items = {
+    # Solarized
+    lag = "{sb Lag: %m$0-%n}";
+    act = "{sb Act: $0-}";
+    more = "%k%3-- more --%n";
+  };
+};
