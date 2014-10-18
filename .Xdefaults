@@ -14,7 +14,7 @@ URxvt.loginShell:           true
 URxvt.saveLines:            50
 URxvt.internalBorder:       3
 URxvt.lineSpace:            0
-URxvt*font: xft:Inconsolata for Powerline:regular:pixelsize=12,xft:Dejavu Sans Mono
+URxvt*font: xft:Inconsolata for Powerline:regular:pixelsize=12
 ! Fonts
 URxvt.allow_bold:           true
 
