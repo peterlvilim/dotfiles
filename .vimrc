@@ -76,3 +76,4 @@ let g:promptline_preset = {
         \'x' : [ promptline#slices#git_status() ],
         \'y' : [ promptline#slices#vcs_branch() ],
         \'warn' : [ promptline#slices#last_exit_code() ]}
+let g:airline#extensions#whitespace#enabled = 0
