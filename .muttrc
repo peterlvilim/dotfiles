@@ -52,3 +52,5 @@ mailboxes +peterlvilim/INBOX \
 # Other special folders.
 set mbox      = "+peterlvilim/archive"
 set postponed = "+peterlvilim/drafts"
+
+auto_view text/html
