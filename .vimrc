@@ -77,3 +77,4 @@ let g:promptline_preset = {
         \'y' : [ promptline#slices#vcs_branch() ],
         \'warn' : [ promptline#slices#last_exit_code() ]}
 let g:airline#extensions#whitespace#enabled = 0
+
