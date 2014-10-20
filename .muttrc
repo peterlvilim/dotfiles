@@ -1,24 +1,21 @@
-source ~/.mutt/solarized
-set from="peterlvilim@gmail.com"
-set realname = "Peter Vilim"
-set imap_user = peterlvilim@
-set imap_pass = "wewtmjxfrakykedc"
+# Paths ----------------------------------------------
+set folder           = ~/.mail               # mailbox location
+set alias_file       = ~/.mutt/alias         # where to store aliases
+set header_cache     = ~/.mutt/cache/headers # where to store headers
+set message_cachedir = ~/.mutt/cache/bodies  # where to store bodies
+set certificate_file = ~/.mutt/certificates  # where to store certs
+set mailcap_path     = ~/.mutt/mailcap       # entries for filetypes
+set tmpdir           = ~/.mutt/temp          # where to keep temp files
 
-set folder = "imaps://imap.gmail.com:993"
-set spoolfile = "+INBOX"
-set postponed ="+[Google Mail]/Drafts"
-
-set smtp_url = "smtp://peterlvilim@smtp.gmail.com:587/"
-set smtp_pass = "wewtmjxfrakykedc" # use the same passowrd as for IMAP
-
-# SECURING
-set move = no  #Stop asking to "move read messages to mbox"!
-set imap_keepalive = 900
-set header_cache = ~/.mutt/headers
-set message_cachedir = ~/.mutt/messages
-set text_flowed=yes
-
-set sort='reverse-threads'
-set sort_aux='last-date-received'
-set imap_check_subscribed
-
+# Basic Options --------------------------------------
+set wait_key = no        # shut up, mutt
+set mbox_type = Maildir  # mailbox type
+set timeout = 3          # idle time before scanning
+set mail_check = 0       # minimum time between scans
+unset move               # gmail does that
+set delete               # don't ask, just do
+unset confirmappend      # don't ask, just do!
+set quit                 # don't ask, just do!!
+unset mark_old           # read/new is good enough for me
+set pipe_decode          # strip headers and eval mimes when piping
+set thorough_search      # strip headers and eval mimes before searching
