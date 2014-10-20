@@ -1,0 +1,40 @@
+[general]
+ui = TTY.TTYUI
+accounts = Peter Vilim
+fsync = False
+
+[Account PeterVilim]
+localrepository = peterlvilim-Local
+remoterepository = peterlvilim-Remote
+status_backend = sqlite
+
+[Repository peterlvilim-Local]
+type = Maildir
+localfolders = ~/.mail/peterlvilim
+nametrans = lambda folder: {'drafts':  '[Gmail]/Drafts',
+                            'sent':    '[Gmail]/Sent Mail',
+                            'flagged': '[Gmail]/Starred',
+                            'trash':   '[Gmail]/Trash',
+                            'archive': '[Gmail]/All Mail',
+                            }.get(folder, folder)
+
+[Repository peterlvilim-Remote]
+maxconnections = 1
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+type = Gmail
+remoteuser = peterlvilim@gmail.com
+remotepass = wewtmjxfrakykedc
+realdelete = no
+nametrans = lambda folder: {'[Gmail]/Drafts':    'drafts',
+                            '[Gmail]/Sent Mail': 'sent',
+                            '[Gmail]/Starred':   'flagged',
+                            '[Gmail]/Trash':     'trash',
+                            '[Gmail]/All Mail':  'archive',
+                            }.get(folder, folder)
+folderfilter = lambda folder: folder not in ['[Gmail]/Trash',
+                                             'Nagios',
+                                             'Django',
+                                             'Flask',
+                                             '[Gmail]/Important',
+                                             '[Gmail]/Spam',
+                                             ]
