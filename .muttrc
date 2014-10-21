@@ -111,3 +111,7 @@ bind pager R  group-reply
 
 # View attachments properly.
 bind attach <return> view-mailcap
+
+folder-hook . "exec collapse-all"
+
+macro index,pager A "<save-message>=Archive<enter>" "Archive Message"
