@@ -38,19 +38,28 @@ unignore from: to: cc: date: subject:   # show only these
 unhdr_order *                           # some distros order things by default
 hdr_order from: to: cc: date: subject:  # and in this order
 
-# Account Settings -----------------------------------
-
 # Default inbox.
 set spoolfile = "+peterlvilim/INBOX"
 
 # Mailboxes to show in the sidebar.
 mailboxes +peterlvilim/INBOX \
+          +andurilbearer/INBOX \
+          +vilim1backup/INBOX \
           +peterlvilim/archive \
           +peterlvilim/sent \
           +peterlvilim/drafts \
+          +andurilbearer/archive \
+          +andurilbearer/sent \
+          +andurilbearer/drafts \
+          +vilim1backup/archive \
+          +vilim1backup/sent \
+          +vilim1backup/drafts \
+
+
 
 # Other special folders.
 set mbox      = "+peterlvilim/archive"
 set postponed = "+peterlvilim/drafts"
 
 auto_view text/html
+
