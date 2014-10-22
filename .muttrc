@@ -141,3 +141,5 @@ unset record
 
 bind compose p postpone-message
 bind index p recall-message
+
+set sleep_time=0
