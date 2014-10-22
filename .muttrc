@@ -135,6 +135,9 @@ set include                          # include message in replies
 set forward_quote                    # include message in forwards
 
 set from     = "peterlvilim@gmail.com"
-set sendmail = "/usr/local/bin/msmtp -a peterlvilim"
+set sendmail = "msmtp -a peterlvilim"
 set sendmail_wait = 0
 unset record
+
+bind compose p postpone-message
+bind index p recall-message
