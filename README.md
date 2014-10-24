@@ -13,8 +13,8 @@ These are the dotfiles I use across my machines.
 - Browser: DWB
 - Music: Mopidy(mopidy-spotify, ncmpcpp)
 - File Sync: Syncthing, Git
-- Backup: Tarnsap
-- Encryption: GPG, dm-crypt, Ciphershed
-- Color Scheme: Solarized
+- Backup: [Tarnsap](http://www.tarsnap.com/)
+- Encryption: [GPG](https://www.gnupg.org/), [dm-crypt](http://en.wikipedia.org/wiki/Dm-crypt), [Ciphershed](https://ciphershed.org/)
+- Color Scheme: [Solarized](http://ethanschoonover.com/solarized)
 
 I use [dfm](https://github.com/justone/dfm) to handle the symlinking of these.
