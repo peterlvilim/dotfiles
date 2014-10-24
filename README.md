@@ -3,6 +3,7 @@ dotfiles
 These are the dotfiles I use across my machines.  A list of key software is included below.
 
 - Window Manager: [i3](http://i3wm.org) - ([dotfiles](https://github.com/peterlvilim/i3dotfiles))
+- Menu: [dmenu](http://tools.suckless.org/dmenu/)
 - Terminal Emulator: [rxvt-unicode](https://wiki.archlinux.org/index.php/rxvt-unicode)
 - Shell: [ZSH](https://wiki.archlinux.org/index.php/zsh) ([oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [Vim powerline](https://github.com/Lokaltog/vim-powerline))
 - Editor: [Vim](http://en.wikipedia.org/wiki/Vim_(text_editor)) ([Airline](https://github.com/bling/vim-airline), [CtrlP](https://github.com/kien/ctrlp.vim), [GitGutter](https://github.com/airblade/vim-gitgutter), [Fugitive](https://github.com/tpope/vim-fugitive), [Eclim](http://eclim.org), [syntastic](https://github.com/scrooloose/syntastic))
