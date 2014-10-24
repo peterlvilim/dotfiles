@@ -7,6 +7,8 @@ These are the dotfiles I use across my machines.
 - Shell: ZSH (oh-my-zsh, Vim powerline)
 - Editor: Vim (Airline, CtrlP, GitGutter, Fugitive, Eclim, syntastic)
 - Email: Mutt (offlineimap, msmtp)
+- Todo List: todo.txt
+- Password Management: Pass
 - Chat: irssi, Profanity
 - Browser: DWB
 - Music: Mopidy(mopidy-spotify, ncmpcpp)
