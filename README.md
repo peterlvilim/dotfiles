@@ -13,6 +13,6 @@ These are the dotfiles I use across my machines.
 - File Sync: Syncthing, Git
 - Backup: Tarnsap
 - Encryption: GPG, dm-crypt, Ciphershed
-- Color scheme: Solarized
+- Color Scheme: Solarized
 
 I use [dfm](https://github.com/justone/dfm) to handle the symlinking of these.
