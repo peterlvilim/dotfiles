@@ -9,7 +9,7 @@ These are the dotfiles I use across my machines.
 - Email: [Mutt](http://www.mutt.org/) ([offlineimap](http://offlineimap.org/), [msmtp](http://msmtp.sourceforge.net/))
 - Todo List: [todo.txt](https://github.com/ginatrapani/todo.txt-cli)
 - Password Management: [Pass](http://www.passwordstore.org/)
-- Chat: [irssi](http://www.irssi.org/), [Profanity](http://www.profanity.im/)
+- Chat: [Irssi](http://www.irssi.org/), [Profanity](http://www.profanity.im/)
 - Browser: [dwb](http://portix.bitbucket.org/dwb/)
 - Music: [Mopidy](https://www.mopidy.com/)([mopidy-spotify](https://github.com/mopidy/mopidy-spotify), [ncmpcpp](http://ncmpcpp.rybczak.net/))
 - File Sync: [Syncthing](https://github.com/syncthing/syncthing), [Git](http://git-scm.com/)
