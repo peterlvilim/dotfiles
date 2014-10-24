@@ -6,12 +6,12 @@ These are the dotfiles I use across my machines.
 - Shell: ZSH (oh-my-zsh, Vim powerline)
 - Editor: Vim (Airline, CtrlP, GitGutter, Fugitive, Eclim, syntastic)
 - Email: Mutt (offlineimap, msmtp)
+- Chat: irssi, Profanity
 - Browser: DWB
 - Music: Mopidy(mopidy-spotify, ncmpcpp)
 - File Sync: Syncthing, Git
-- Chat: irssi, Profanity
 - Backup: Tarnsap
-- Color scheme: Solarized
 - Encryption: GPG, dm-crypt, Ciphershed
+- Color scheme: Solarized
 
 I use [dfm](https://github.com/justone/dfm) to handle the symlinking of these.
