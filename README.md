@@ -14,4 +14,4 @@ These are the dotfiles I use across my machines.
 - Color scheme: Solarized
 - Encryption: GPG, dm-crypt, Ciphershed
 
-I use dfm to handle the symlinking of these: https://github.com/justone/dfm
+I use [dfm](https://github.com/justone/dfm) to handle the symlinking of these.
