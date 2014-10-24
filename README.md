@@ -1,6 +1,6 @@
 dotfiles
 ========
-These are the dotfiles I use across my machines.
+These are the dotfiles I use across my machines.  A list of key software is included below.
 
 - Window Manager: [i3](http://i3wm.org) - ([dotfiles](https://github.com/peterlvilim/i3dotfiles))
 - Terminal Emulator: [rxvt-unicode](https://wiki.archlinux.org/index.php/rxvt-unicode)
