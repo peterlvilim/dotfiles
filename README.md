@@ -2,7 +2,7 @@ dotfiles
 ========
 These are the dotfiles I use across my machines.
 
-- Window Manager: i3 (dotfiles located at https://github.com/peterlvilim/i3dotfiles)
+- Window Manager: i3 [dotfiles](https://github.com/peterlvilim/i3dotfiles)
 - Shell: ZSH (oh-my-zsh, Vim powerline)
 - Editor: Vim (Airline, CtrlP, GitGutter, Fugitive, Eclim, syntastic)
 - Email: Mutt (offlineimap, msmtp)
