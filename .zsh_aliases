@@ -1,6 +1,6 @@
 alias t="todo.sh"
 alias g="git"
-alias gcal="gcalcli"
+alias gcal="gcalcli --pw `pass peterlvilim@gmail.com`"
 alias v="vim"
 alias c="clear"
 alias s="ncmpcpp"
