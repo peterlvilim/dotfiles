@@ -1,9 +1,0 @@
-
-[Default Applications]
-application/pdf=Zathura.desktop
-inode/directory=ranger.desktop
-text/plain=vim.desktop
-text/html=vim.desktop
-text/css=vim.desktop
-application/xml=vim.desktop
-application/x-shellscript=vim.desktop

@@ -16,3 +16,4 @@ spotify
 bin/.config
 .irssi/config.autosave
 *.pyc
+.local
