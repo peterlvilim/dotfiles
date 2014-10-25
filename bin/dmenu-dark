@@ -1,0 +1,6 @@
+#!/bin/sh
+baseA3=#002b36
+baseA2=#073642
+baseA0=#657b83
+orange=#cb4b16
+exec dmenu -nb $baseA3 -nf $baseA0 -sb $baseA2 -sf $orange "$@"
