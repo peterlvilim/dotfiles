@@ -1,1 +1,1 @@
-cd ~ && xdg-open `find | dmenu-dark -l 20`
+cd ~ && xdg-open `find ~ -name \*.tex -o -name \*.pdf -o -name \*.c -o -name \*.cpp -o -name \*.xml -o -name \*.h -o -name \*.m -o -name \*.py | dmenu-dark -l 20`
