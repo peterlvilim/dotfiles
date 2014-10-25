@@ -22,6 +22,7 @@ I use [dfm](https://github.com/justone/dfm) to handle the symlinking of these.
 
 To install:
 git clone https://github.com/peterlvilim/dotfiles.git .dotfiles
+
 cd .dotfiles
 git submodule init
 git submodule update
