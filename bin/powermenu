@@ -1,0 +1,12 @@
+#!/bin/sh
+COMMANDS="
+suspend\n
+poweroff\n
+reboot\n
+hibernate\n
+"
+
+command=$(echo $COMMANDS | \
+    dmenu-dark -p "power")
+[ "$command" = "" ] && exit 1
+systemctl $command && exit 0
