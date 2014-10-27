@@ -41,6 +41,8 @@ nnoremap j gj| " move by visual line
 nnoremap k gk| " move by visual line
 nnoremap K <C-B> " page up
 nnoremap J <C-F> " page down
+let mapleader="," " map leader from \ to ,
+
 map checkspell :setlocal spell spelllang=en_us<CR>| " map checkspell to run spelling
 
 set viminfo='10,\"100,:20,%,n~/.viminfo " remember where in a file we were when we closed
