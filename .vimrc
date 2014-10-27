@@ -42,6 +42,10 @@ nnoremap k gk| " move by visual line
 nnoremap K <C-B> " page up
 nnoremap J <C-F> " page down
 let mapleader="," " map leader from \ to ,
+nnoremap <C-h> <C-w>h| " move window left
+nnoremap <C-j> <C-w>j| " move window down
+nnoremap <C-k> <C-w>k| " move window up
+nnoremap <C-l> <C-w>l| " move window right
 
 map checkspell :setlocal spell spelllang=en_us<CR>| " map checkspell to run spelling
 
