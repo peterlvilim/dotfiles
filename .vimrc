@@ -25,7 +25,7 @@ set showcmd             " show command in bottom bar
 set nobackup " don't write backup files since I use git
 set nowb " don't write backup files since I use git
 set noswapfile " dont write swap files
-inoremap jk <Esc> " remap pressing jk in insert mode to exiting insert mode
+inoremap jk <Esc>| " remap pressing jk in insert mode to exiting insert mode
 
 " formatting
 set tabstop=4       " number of visual spaces per TAB
@@ -35,16 +35,16 @@ filetype indent on      " load filetype-specific indent settings
 set smarttab " smart tab indenting as you edit code
 
 " movement
-nnoremap B ^ " move to beginning of line
-nnoremap E $ " move to end of line
-nnoremap j gj " move by visual line
-nnoremap k gk " move by visual line
+nnoremap B ^| " move to beginning of line
+nnoremap E $| " move to end of line
+nnoremap j gj| " move by visual line
+nnoremap k gk| " move by visual line
 
-map checkspell :setlocal spell spelllang=en_us<CR> " map checkspell to run spelling
+map checkspell :setlocal spell spelllang=en_us<CR>| " map checkspell to run spelling
 
 set viminfo='10,\"100,:20,%,n~/.viminfo " remember where in a file we were when we closed
 
-nnoremap ; : " map the ; to do the same as pressing SHIFT+;
+nnoremap ; :| " map the ; to do the same as pressing SHIFT+;
 
 " search
 set ignorecase " ignore case when searching
