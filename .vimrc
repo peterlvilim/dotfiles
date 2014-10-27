@@ -72,3 +72,6 @@ let g:promptline_preset = {
         \'warn' : [ promptline#slices#last_exit_code() ]}
 let g:airline#extensions#whitespace#enabled = 0 " disable whitespace detection on status line
 
+" tagbar
+nnoremap z :TagbarOpenAutoClose<CR>
+let g:tagbar_compact=1
