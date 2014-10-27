@@ -83,3 +83,6 @@ nnoremap Q <nop>|  " Turn off Q
 
 " Write with sudo with :W
 cmap w!! w !sudo tee % >/dev/null " Use w!! to write file using sudo
+
+" python-mode
+let g:pymode_folding = 0 " disable folding
