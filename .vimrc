@@ -1,65 +1,54 @@
-execute pathogen#infect() 
-syntax on
-set background=dark
-set nocompatible
-let g:solarized_termcolors = 16
-let g:solarized_termtrans =   0
-let g:solarized_degrade   =   0
-let g:solarized_bold      =   1
-let g:solarized_underline =   1
-let g:solarized_italic    =   1
-let g:solarized_contrast  =   "normal"
-let g:solarized_visibility=   "normal"
+" plugins
+set nocompatible " break backwards compatibility
+" install all plugins in bundle folder
+execute pathogen#infect()
+filetype plugin on " enable vim files on a filetype basis (see ftplugin folder)
+
+" colors
+colorscheme solarized " set color scheme to bad solarized
+set background=dark " use a dark color theme
+let g:solarized_termcolors = 16 " use 16 color solarized
+let g:solarized_termtrans =   0 " disable compability
+let g:solarized_degrade   =   0 " disable compatibility
+let g:solarized_bold      =   1 " enable bold fonts
+let g:solarized_underline =   1 " enable underline fonts
+let g:solarized_italic    =   1 " enable italic fonts
+let g:solarized_contrast  =   "normal" " default contrast for text
+let g:solarized_visibility=   "normal" " dfault visibility for text
+syntax on " enable syntax highlighting
 
 
 set title " display doc name in terminal title
+set showcmd             " show command in bottom bar
+
+" temp files
 set nobackup " don't write backup files since I use git
-set nowb
+set nowb " don't write backup files since I use git
 set noswapfile " dont write swap files
-" remap pressing jk in insert mode to exiting insert mode
-inoremap jk <Esc>
-colorscheme solarized " set color scheme to bad wolf
+inoremap jk <Esc> " remap pressing jk in insert mode to exiting insert mode
+
+" formatting
 set tabstop=4       " number of visual spaces per TAB
 set softtabstop=4   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
-set showcmd             " show command in bottom bar
-filetype indent on      " load filetype-specific indent files
-filetype plugin on " enable vim files on a filetype basis (see ftplugin folder)
+filetype indent on      " load filetype-specific indent settings
+set smarttab " smart tab indenting as you edit code
 
-" move to beginning/end of line
-nnoremap B ^
-nnoremap E $
+" movement
+nnoremap B ^ " move to beginning of line
+nnoremap E $ " move to end of line
+nnoremap j gj " move by visual line
+nnoremap k gk " move by visual line
 
-" $/^ doesn't do anything (force self to use above)
-nnoremap $ <nop>
-nnoremap ^ <nop>
+map checkspell :setlocal spell spelllang=en_us<CR> " map checkspell to run spelling
 
-" move vertically by visual line (force self to use new mappings)
-nnoremap j gj
-nnoremap k gk
+set viminfo='10,\"100,:20,%,n~/.viminfo " remember where in a file we were when we closed
 
-map M :!make<CR><Esc>
-map checkspell :setlocal spell spelllang=en_us<CR>
+nnoremap ; : " map the ; to do the same as pressing SHIFT+;
 
-" Tell vim to remember certain things when we exit
-"  '10  :  marks will be remembered for up to 10 previously edited files
-"  "100 :  will save up to 100 lines for each register
-"  :20  :  up to 20 lines of command-line history will be remembered
-"  %    :  saves and restores the buffer list
-"  n... :  where to save the viminfo files
-set viminfo='10,\"100,:20,%,n~/.viminfo
-
-nnoremap ; :
-
-" disable arrow keys in command mode
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
-
+" search
 set ignorecase " ignore case when searching
 set smartcase " only use case if not all lower case in search
-set smarttab " smart tab indenting as you edit code
 set hlsearch " highight search terms
 set incsearch " show search results as you type
 
@@ -69,12 +58,14 @@ set number
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 set laststatus=2
 set shortmess=I
-let g:airline_powerline_fonts = 1
+
+" status line
+let g:airline_powerline_fonts = 1 " enable powerline symbols for status
 let g:promptline_preset = {
         \'a' : [ promptline#slices#host() ],
         \'c' : [ promptline#slices#cwd() ],
         \'x' : [ promptline#slices#git_status() ],
         \'y' : [ promptline#slices#vcs_branch() ],
         \'warn' : [ promptline#slices#last_exit_code() ]}
-let g:airline#extensions#whitespace#enabled = 0
+let g:airline#extensions#whitespace#enabled = 0 " disable whitespace detection on status line
 
