@@ -54,6 +54,7 @@ set ignorecase " ignore case when searching
 set smartcase " only use case if not all lower case in search
 set hlsearch " highight search terms
 set incsearch " show search results as you type
+nmap <silent> ,/ :nohlsearch<CR>| " disable highlighting easily
 
 set pastetoggle=<F2>
 set number
@@ -76,3 +77,9 @@ let g:airline#extensions#whitespace#enabled = 0 " disable whitespace detection o
 nnoremap z :TagbarOpenAutoClose<CR>| " command to open tagbar
 let g:tagbar_compact = 1 " remove the help item
 let g:tagbar_sort = 0 " sort by order in file
+
+noremap <F1> <Esc>| " Avoid accidental hits of <F1> while aiming for <Esc>
+nnoremap Q <nop>|  " Turn off Q
+
+" Write with sudo with :W
+cmap w!! w !sudo tee % >/dev/null " Use w!! to write file using sudo
