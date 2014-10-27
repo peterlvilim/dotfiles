@@ -3,3 +3,5 @@
 	email = peterlvilim@users.noreply.github.com
 [color]
 	ui = true
+[push]
+	default = simple
