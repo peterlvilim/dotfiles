@@ -90,6 +90,7 @@ cmap w!! w !sudo tee % >/dev/null " Use w!! to write file using sudo
 
 " python-mode
 let g:pymode_folding = 0 " disable folding
+let g:pymode_lint_on_write = 1 " disable lint on write (run manually)
 
 " eclim
 let g:EclimCompletionMethod = 'omnifunc' " use YouCompleteMe for eclim completion
