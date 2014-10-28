@@ -37,6 +37,8 @@ set smarttab " smart tab indenting as you edit code
 " movement
 nnoremap B ^| " move to beginning of line
 nnoremap E $| " move to end of line
+nnoremap dB d^| " also remap delete
+nnoremap dE d$| " also remap delete
 nnoremap j gj| " move by visual line
 nnoremap k gk| " move by visual line
 nnoremap K <C-B> " page up
