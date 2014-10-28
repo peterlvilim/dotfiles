@@ -49,8 +49,6 @@ nnoremap <C-j> <C-w>j| " move window down
 nnoremap <C-k> <C-w>k| " move window up
 nnoremap <C-l> <C-w>l| " move window right
 
-map checkspell :setlocal spell spelllang=en_us<CR>| " map checkspell to run spelling
-
 set viminfo='10,\"100,:20,%,n~/.viminfo " remember where in a file we were when we closed
 
 nnoremap ; :| " map the ; to do the same as pressing SHIFT+;
