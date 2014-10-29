@@ -26,6 +26,7 @@ set nobackup " don't write backup files since I use git
 set nowb " don't write backup files since I use git
 set noswapfile " dont write swap files
 inoremap jk <Esc>| " remap pressing jk in insert mode to exiting insert mode
+noremap jk <Esc>| " remap pressing jk in insert mode to exiting insert mode
 
 " formatting
 set tabstop=4       " number of visual spaces per TAB
@@ -39,6 +40,8 @@ nnoremap B ^| " move to beginning of line
 nnoremap E $| " move to end of line
 nnoremap dB d^| " also remap delete
 nnoremap dE d$| " also remap delete
+vnoremap B ^| " also remap visual mode
+vnoremap E $| " also remap visual mode
 nnoremap j gj| " move by visual line
 nnoremap k gk| " move by visual line
 nnoremap K <C-B> " page up
