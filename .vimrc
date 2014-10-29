@@ -48,6 +48,7 @@ nnoremap <C-h> <C-w>h| " move window left
 nnoremap <C-j> <C-w>j| " move window down
 nnoremap <C-k> <C-w>k| " move window up
 nnoremap <C-l> <C-w>l| " move window right
+nmap <Space> i_<Esc>r
 
 set viminfo='10,\"100,:20,%,n~/.viminfo " remember where in a file we were when we closed
 
