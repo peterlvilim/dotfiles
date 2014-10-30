@@ -58,6 +58,9 @@ set viminfo='10,\"100,:20,%,n~/.viminfo " remember where in a file we were when 
 
 nnoremap ; :| " map the ; to do the same as pressing SHIFT+;
 
+" clipboard
+let g:clipbrdDefaultReg = '+' " use xwindow clipboard for cutting and pasting
+
 " search
 set ignorecase " ignore case when searching
 set smartcase " only use case if not all lower case in search
