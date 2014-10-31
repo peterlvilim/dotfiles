@@ -7,8 +7,8 @@
 # the default umask is set in /etc/profile; for setting the umask
 # for ssh logins, install and configure the libpam-umask package.
 #umask 022
-
 # if running bash
+export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
     if [ -f "$HOME/.bashrc" ]; then
@@ -24,4 +24,3 @@ fi
 if [ -z $SSH_CLIENT ] && [ -z $DISPLAY ]; then
         xinit /usr/bin/i3
 fi
-

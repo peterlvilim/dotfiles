@@ -4,6 +4,7 @@ suspend\n
 reboot\n
 halt\n
 lock\n
+logout\n
 "
 
 command=$(echo $COMMANDS | \

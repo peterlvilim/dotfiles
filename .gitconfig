@@ -7,3 +7,5 @@
 	default = simple
 [merge]
 	tool = vimdiff3
+[core]
+	excludesfile = /home/pvilim/.gitignore_global
