@@ -52,7 +52,7 @@ source $ZSH/oh-my-zsh.sh
 source .shell_prompt.sh
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:$HOME/dotfiles/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:$HOME/bin"
 export FPATH="$FPATH:$HOME/.zsh-completions"
 
 # export MANPATH="/usr/local/man:$MANPATH"
