@@ -32,10 +32,11 @@ inoremap jk <Esc>| " remap pressing jk in insert mode to exiting insert mode
 vnoremap jk <Esc>| " remap pressing jk in visual mode to exiting visual mode
 
 " formatting
-set tabstop=4       " number of visual spaces per TAB
-set softtabstop=4   " number of spaces in tab when editing
+set tabstop=8       " number of visual spaces per TAB
+set softtabstop=0   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
 filetype indent on      " load filetype-specific indent settings
+set shiftwidth=4
 set smarttab " smart tab indenting as you edit code
 
 " movement
