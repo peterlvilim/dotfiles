@@ -1,1 +1,1 @@
-cd ~ && xdg-open `find ~ -name \*.tex -o -name \*.pdf -o -name \*.c -o -name \*.cpp -o -name \*.xml -o -name \*.h -o -name \*.m -o -name \*.py | dmenu-dark -p file -l 10`
+cd ~ && xdg-open `mlocate -d $HOME/.updatedb .tex .pdf .c .cpp .xml .h .m .py | dmenu-dark -p file -l 10`
