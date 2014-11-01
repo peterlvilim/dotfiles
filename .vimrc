@@ -90,7 +90,7 @@ let g:promptline_preset = {
 let g:airline#extensions#whitespace#enabled = 0 " disable whitespace detection on status line
 
 " tagbar
-nnoremap z :TagbarOpenAutoClose<CR>| " command to open tagbar
+nnoremap <leader>t :TagbarOpenAutoClose<CR>| " command to open tagbar
 let g:tagbar_compact = 1 " remove the help item
 let g:tagbar_sort = 0 " sort by order in file
 
