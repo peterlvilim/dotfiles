@@ -11,8 +11,7 @@ URxvt.fading:               0
 ! URxvt.urgentOnBell:         true
 ! URxvt.visualBell:           true
 URxvt.loginShell:           true
-URxvt.saveLines:            50
-URxvt.internalBorder:       3
+URxvt.saveLines:            1000
 URxvt.lineSpace:            0
 URxvt*font: xft:Inconsolata for Powerline:regular:pixelsize=12
 ! Fonts
@@ -25,9 +24,7 @@ URxvt.scrollStyle:          rxvt
 URxvt.scrollBar:            false
 
 ! Perl extensions
-URxvt.perl-ext-common:      default,matcher,selection-to-clipboard
-URxvt.matcher.button:       1
-URxvt.urlLauncher:          dwb
+URxvt.perl-ext-common:      default,selection-to-clipboard
 
 ! Cursor
 URxvt.cursorBlink:          false
