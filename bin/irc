@@ -1,2 +1,3 @@
 ssh -f pvilim@oxygen.vil.im -L 6667:oxygen.vil.im:6667 -N
 irssi -c localhost -w x
+pkill -9 -f oxygen.vil.im
