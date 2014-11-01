@@ -72,8 +72,9 @@ set hlsearch " highight search terms
 set incsearch " show search results as you type
 nmap <silent> ,/ :nohlsearch<CR>| " disable highlighting easily
 
-set pastetoggle=<F2>
-set number
+set pastetoggle=<F2> " easy way to toggle paste mode if needed
+set mouse=a " mouse support to avoid having to toggle paste mode
+set number " line numbers
 
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 set laststatus=2
