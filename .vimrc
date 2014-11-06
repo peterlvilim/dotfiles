@@ -114,7 +114,7 @@ let g:pymode_lint_cwindow = 0 " disable open window for errors
 
 " eclim
 let g:EclimCompletionMethod = 'omnifunc' " use YouCompleteMe for eclim completion
-noremap  <leader>o :Only<CR>| " close all buffers but this one
+noremap  <leader>o :Only<CR><C-w>z| " close all buffers but this one and preview window
 
 if executable('ag')
   " Use Ag over Grep
