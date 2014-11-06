@@ -17,4 +17,4 @@ bin/.config
 .irssi/config.autosave
 *.pyc
 .local
-.vim/eclim/doc/
+.vim/eclim/
