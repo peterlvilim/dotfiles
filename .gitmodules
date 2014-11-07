@@ -40,3 +40,6 @@
 [submodule ".vim/bundle/unimpaired"]
 	path = .vim/bundle/unimpaired
 	url = git@github.com:tpope/vim-unimpaired.git
+[submodule ".password-store"]
+	path = .password-store
+	url = git@oxygen.vil.im:.password-store
