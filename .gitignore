@@ -18,3 +18,4 @@ bin/.config
 *.pyc
 .local
 .vim/eclim/
+*.log
