@@ -24,7 +24,7 @@ URxvt.scrollStyle:          rxvt
 URxvt.scrollBar:            false
 
 ! Perl extensions
-URxvt.perl-ext-common:      default,selection-to-clipboard,cwd-spawn
+URxvt.perl-ext-common:      default,selection-to-clipboard
 
 ! Cursor
 URxvt.cursorBlink:          false
