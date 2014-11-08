@@ -46,7 +46,6 @@ ZSH_THEME="afowler"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git cp)
-source $HOME/.zsh_aliases
 source $ZSH/oh-my-zsh.sh
 source .shell_prompt.sh
 # User configuration
@@ -80,3 +79,4 @@ export FPATH="$FPATH:$HOME/.zsh-completions"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+source $HOME/.zsh_aliases
