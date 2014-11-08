@@ -47,7 +47,7 @@ ZSH_THEME="afowler"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git cp)
 source $ZSH/oh-my-zsh.sh
-source .shell_prompt.sh
+source $HOME/.shell_prompt.sh
 # User configuration
 
 export PATH="/usr/local/bin:/usr/bin:/bin:$HOME/bin"
