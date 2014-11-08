@@ -8,3 +8,5 @@ alias m="mutt"
 alias k="pkill -9 -f"
 alias p="pass -c"
 alias crontab-e='editor ~/.crontab && crontab ~/.crontab'
+alias ls="ls"
+alias l="ls"
