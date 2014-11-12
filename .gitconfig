@@ -9,3 +9,5 @@
 	tool = vimdiff3
 [core]
 	excludesfile = /home/pvilim/.gitignore_global
+[alias]
+	root = !pwd
