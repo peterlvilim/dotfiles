@@ -63,6 +63,10 @@ vnoremap <tab> %
 nnoremap ' `
 nnoremap ` '
 
+" Next quickfix
+nnoremap [l :lprev<CR><CR>| " go to previous
+nnoremap ]l :lnext<CR><CR>| " go to previous
+
 set viminfo='10,\"100,:20,%,n~/.viminfo " remember where in a file we were when we closed
 
 nnoremap ; :| " map the ; to do the same as pressing SHIFT+;
@@ -123,3 +127,4 @@ if executable('ag')
   " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
+set autochdir " Switch our directory to current open file
