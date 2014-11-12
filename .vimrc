@@ -128,3 +128,5 @@ if executable('ag')
   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
 set autochdir " Switch our directory to current open file
+
+so ~/.vim/autoload/WatchForChanges.vim
