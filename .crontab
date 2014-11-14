@@ -1,4 +1,3 @@
 MAILTO=""
-*/5 * * * * offlineimap -q -o -u quiet
-0 12 * * * offlineimap -o -u -quiet
+*/5 * * * * offlineimap -o -u quiet
 */5 * * * * updatedb -l 0 -U $HOME -o $HOME/.updatedb
