@@ -1,1 +1,1 @@
-gitlist ~ | dmenu-dark -p repository -l 10
+urxvt -cd `gitlist ~ | dmenu-dark -p repository -l 10`
