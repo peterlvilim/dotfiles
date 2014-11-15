@@ -1,1 +1,0 @@
-cd ~ && xdg-open `mlocate -d $HOME/.updatedb .tex .pdf .c .cpp .xml .h .m .py | dmenu-dark -p file -l 10`

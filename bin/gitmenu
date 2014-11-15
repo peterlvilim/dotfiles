@@ -1,0 +1,1 @@
+gitlist ~ | dmenu-dark -p repository -l 10
