@@ -132,3 +132,6 @@ set autochdir " Switch our directory to current open file
 so ~/.vim/autoload/WatchForChanges.vim
 
 :nnoremap <leader>s a<C-X><C-S>| "use <leader>s to get spelling suggestions
+
+let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
