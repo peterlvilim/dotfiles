@@ -13,6 +13,8 @@ if [ -d "$d" ]; then
         cd $d > /dev/null
         if [ -d ".git" ]; then
             echo -e "`pwd`"
+        elif [ -d ".svn" ]; then
+            echo -e "`pwd`"
         else
             scan *
         fi

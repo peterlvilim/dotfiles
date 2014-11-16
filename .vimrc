@@ -20,7 +20,6 @@ syntax on " enable syntax highlighting
 
 set title " display doc name in terminal title
 set showcmd             " show command in bottom bar
-set lazyredraw " decrease redraw on macro execution
 set ttyfast " force fast tty (should enable by default on urxvt)
 
 
