@@ -20,7 +20,6 @@ syntax on " enable syntax highlighting
 
 set title " display doc name in terminal title
 set showcmd             " show command in bottom bar
-set lazyredraw " decrease redraw on macro execution
 set ttyfast " force fast tty (should enable by default on urxvt)
 
 
@@ -131,6 +130,3 @@ set autochdir " Switch our directory to current open file
 so ~/.vim/autoload/WatchForChanges.vim
 
 :nnoremap <leader>s a<C-X><C-S>| "use <leader>s to get spelling suggestions
-
-let g:syntastic_cpp_compiler = 'clang++'
-let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
