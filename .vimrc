@@ -28,6 +28,7 @@ set nobackup " don't write backup files since I use git
 set nowb " don't write backup files since I use git
 set noswapfile " dont write swap files
 inoremap jk <Esc>| " remap pressing jk in insert mode to exiting insert mode
+inoremap kj <Esc>| " remap pressing kj in insert mode to exiting insert mode
 
 " formatting
 set tabstop=8       " number of visual spaces per TAB

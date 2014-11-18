@@ -23,7 +23,7 @@ let g:ycm_server_use_vim_stdout = 0 "default 0 (logging to console)
 let g:ycm_server_log_level = 'info' "default info
 
 
-let g:ycm_global_ycm_extra_conf = '~/.vim/ftplugin/.ycm_extra_conf_cpp.py'  "where to search for .ycm_extra_conf.py if not found
+let g:ycm_global_ycm_extra_conf = '/home/pvilim/.vim/ftplugin/.ycm_extra_conf_cpp.py'  "where to search for .ycm_extra_conf.py if not found
 let g:ycm_confirm_extra_conf = 1
 
 
@@ -34,3 +34,7 @@ let g:ycm_key_invoke_completion = '<C-Space>'
 let g:ycm_confirm_extra_conf = 0
 
 nnoremap <F11> :YcmForceCompileAndDiagnostics <CR>
+
+let autoreadargs={'autoread':1}
+execute WatchForChanges("*",autoreadargs)
+nnoremap <leader>d :YcmCompleter GoToDefinition<CR>
