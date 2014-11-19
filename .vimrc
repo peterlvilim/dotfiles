@@ -131,3 +131,6 @@ set autochdir " Switch our directory to current open file
 so ~/.vim/autoload/WatchForChanges.vim
 
 :nnoremap <leader>s a<C-X><C-S>| "use <leader>s to get spelling suggestions
+
+" easytags
+let g:easytags_suppress_report = 1
