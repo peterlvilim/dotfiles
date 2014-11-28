@@ -1,0 +1,5 @@
+key_toggle_crossfade = ''
+key_quit = 'x'
+key_next_found_position = 'n'
+key_prev_found_position = 'N'
+key_move_song_down = ''
