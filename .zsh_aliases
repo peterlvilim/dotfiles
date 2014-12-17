@@ -9,7 +9,7 @@ alias s="ncmpcpp"
 alias m="mutt"
 alias k="pkill -9 -f"
 alias p="pass -c"
-alias crontab-e="editor ~/.crontab && crontab ~/.crontab"
+alias crontab-e="$EDITOR ~/.crontab && crontab ~/.crontab"
 ago() {
 ag "$@" && editor `ag -l --nobreak "$@" | tmenu -l 10 -p `
 }
