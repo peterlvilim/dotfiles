@@ -23,7 +23,7 @@ def i3clients():
             continue
         workspace = workspace[0]
         windows = i3.filter(workspace, nodes=[])
-        print windows
+        print(windows)
         instances = {}
         # Adds windows and their ids to the clients dictionary
         for window in windows:
