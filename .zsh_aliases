@@ -11,7 +11,7 @@ alias k="pkill -9 -f"
 alias p="pass -c"
 alias crontab-e="$EDITOR ~/.crontab && crontab ~/.crontab"
 ago() {
-ag "$@" && editor `ag -l --nobreak "$@" | tmenu -l 10 -p `
+ag "$@" && $EDITOR `ag -l --nobreak "$@" | tmenu -l 10 -p `
 }
 alias ls="ls"
 alias l="ls"
