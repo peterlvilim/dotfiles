@@ -22,5 +22,5 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 if [ -z $SSH_CLIENT ] && [ -z $DISPLAY ]; then
-        xinit /usr/bin/i3
+    startx
 fi
