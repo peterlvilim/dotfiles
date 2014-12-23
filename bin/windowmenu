@@ -23,19 +23,19 @@ def i3clients():
             continue
         workspace = workspace[0]
         windows = i3.filter(workspace, nodes=[])
-        print(windows)
         instances = {}
         # Adds windows and their ids to the clients dictionary
         for window in windows:
             win_str = '[%s] %s' % (workspace['name'], window['name'])
-            win_str = win_str+' - '+window['window_properties']['class']
-            # Appends an instance number if other instances are present
-            if win_str in instances:
-                instances[win_str] += 1
-                win_str = '%s (%d)' % (win_str, instances[win_str])
-            else:
-                instances[win_str] = 1
-            clients[win_str] = window['id']
+            if 'window_properties' in window:
+                win_str = win_str+' - '+window['window_properties']['class']
+                # Appends an instance number if other instances are present
+                if win_str in instances:
+                    instances[win_str] += 1
+                    win_str = '%s (%d)' % (win_str, instances[win_str])
+                else:
+                    instances[win_str] = 1
+                clients[win_str] = window['id']
     return clients
 
 def win_menu(clients, l=10):
