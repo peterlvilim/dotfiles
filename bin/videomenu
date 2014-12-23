@@ -4,6 +4,6 @@ DIRS=(/data1/TV /data2/movies ~/download /data1/download)
 
 results=''
 for i in ${DIRS[@]}; do
-    results=$results$(find ${i} | grep mkv)
+    results=$results$(find ${i} | grep mkv)"\n"
 done
-mpv "$(echo "$results" | dmenu-dark -p video -l 10)"
+mpv "$(echo -e "$results" | dmenu-dark -p video -l 10)" --no-osc
