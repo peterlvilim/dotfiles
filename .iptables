@@ -1,28 +1,24 @@
+*nat
+:PREROUTING ACCEPT [315:18062]
+:INPUT ACCEPT [1:42]
+:OUTPUT ACCEPT [0:0]
+:POSTROUTING ACCEPT [0:0]
+-A POSTROUTING -s 10.9.8.0/24 -o eth0 -j MASQUERADE
+COMMIT
 *filter
-
-#loopback
+:INPUT ACCEPT [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
 -A INPUT -i lo -j ACCEPT
--A INPUT ! -i lo -d 127.0.0.0/8 -j REJECT
-
-# Accepts all established inbound connections
--A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
-
-# Allows all outbound traffic
+-A INPUT -d 127.0.0.0/8 ! -i lo -j REJECT --reject-with icmp-port-unreachable
+-A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 22000 -j ACCEPT
+-A INPUT -p udp -m udp --dport 9987 -j ACCEPT
+-A INPUT -p udp -m udp --dport 1194 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 80 -j ACCEPT
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 22 -j ACCEPT
+-A INPUT -j REJECT --reject-with icmp-port-unreachable
+-A FORWARD -i eth0 -o tun0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+-A FORWARD -s 10.9.8.0/24 -o eth0 -j ACCEPT
 -A OUTPUT -j ACCEPT
-
-# Allow syncthing and HTTP
--A INPUT -p tcp --dport 22000 -j ACCEPT
--A INPUT -p tcp --dport 80 -j ACCEPT
-
-# Allows SSH connections 
-# The --dport number is the same as in /etc/ssh/sshd_config
--A INPUT -p tcp -m state --state NEW --dport 22 -j ACCEPT
-
-# Block ping
-# -A INPUT -p icmp -j ACCEPT
-
-# Reject all other inbound - default deny unless explicitly allowed policy:
--A INPUT -j REJECT
--A FORWARD -j REJECT
-
 COMMIT
