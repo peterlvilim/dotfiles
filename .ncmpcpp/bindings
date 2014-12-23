@@ -148,17 +148,17 @@
 #def_key "mouse"
 #  mouse_event
 #
-#def_key "up"
-#  scroll_up
+def_key "k"
+ scroll_up
 #
-#def_key "down"
-#  scroll_down
+def_key "j"
+ scroll_down
 #
-#def_key "["
-#  scroll_up_album
+def_key "K"
+  scroll_up_album
 #
-#def_key "]"
-#  scroll_down_album
+def_key "J"
+  scroll_down_album
 #
 #def_key "{"
 #  scroll_up_artist
@@ -244,8 +244,8 @@
 #def_key "4"
 #  show_media_library
 #
-#def_key "4"
-#  toggle_media_library_columns_mode
+def_key "ctrl_p"
+  toggle_media_library_columns_mode
 #
 #def_key "5"
 #  show_playlist_editor
