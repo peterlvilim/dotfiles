@@ -8,6 +8,7 @@ pythonfile = ~/.password-store/.pwhelper.py
 localrepository = peterlvilim-Local
 remoterepository = peterlvilim-Remote
 status_backend = sqlite
+postsynchook = notmuch new
 
 [Repository peterlvilim-Local]
 type = Maildir
@@ -44,6 +45,7 @@ folderfilter = lambda folder: folder not in ['[Gmail]/Trash',
 localrepository = andurilbearer-Local
 remoterepository = andurilbearer-Remote
 status_backend = sqlite
+postsynchook = notmuch new
 
 [Repository andurilbearer-Local]
 type = Maildir
@@ -80,6 +82,7 @@ folderfilter = lambda folder: folder not in ['[Gmail]/Trash',
 localrepository = vilim1backup-Local
 remoterepository = vilim1backup-Remote
 status_backend = sqlite
+postsynchook = notmuch new
 
 [Repository vilim1backup-Local]
 type = Maildir
