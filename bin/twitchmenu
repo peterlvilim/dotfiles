@@ -149,7 +149,7 @@ play_stream() { # string string -> either(command, stderr)
     local err
 
     lstreamer_opts=(
-        --player "vlc --title='$title' --profile=live"
+        --player "mpv --title='$title' --profile=live"
         --quiet
         "$url"
     )
