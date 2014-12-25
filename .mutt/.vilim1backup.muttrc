@@ -1,0 +1,2 @@
+set from = "vilim1backup@gmail.com"
+set sendmail = "msmtp -a vilim1backup"

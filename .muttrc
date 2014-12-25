@@ -21,6 +21,9 @@ set quit                 # don't ask, just do!!
 unset mark_old           # read/new is good enough for me
 set pipe_decode          # strip headers and eval mimes when piping
 set thorough_search      # strip headers and eval mimes before searching
+bind index N search-opposite
+bind pager N search-opposite
+macro index a "<limit>all\n" "show all messages (undo limit)"
 
 # Sidebar Patch --------------------------------------
 set sidebar_delim   = '  │'
@@ -54,6 +57,7 @@ mailboxes +peterlvilim/INBOX \
           +vilim1backup/archive \
           +vilim1backup/sent \
           +vilim1backup/drafts \
+          +temporary/search \
 
 
 
@@ -89,6 +93,7 @@ macro index \Cr "T~U<enter><tag-prefix><clear-flag>N<untag-pattern>.<enter>" "ma
 bind index,pager <down>   sidebar-next
 bind index,pager <up>    sidebar-prev
 bind index,pager <right>  sidebar-open
+
 # Pager View Options ---------------------------------
 set pager_index_lines = 10 # number of index lines to show
 set pager_context = 3      # number of context lines to show
@@ -99,6 +104,7 @@ unset markers              # no ugly plus signs
 
 set quote_regexp = "^( {0,4}[>|:#%]| {0,4}[a-z0-9]+[>|]+)+"
 alternative_order text/plain text/enriched text/html
+macro pager \Cu "|urlview<enter>" "call urlview to open links"
 
 # Pager Key Bindings ---------------------------------
 bind pager k  previous-line
@@ -111,9 +117,20 @@ bind pager R  group-reply
 # View attachments properly.
 bind attach <return> view-mailcap
 
+# Folder hooks
 folder-hook . "exec collapse-all"
+folder-hook *andurilbearer* 'source ~/.mutt/.andurilbearer.muttrc'
+folder-hook *vilim1backup* 'source ~/.mutt/.vilim1backup.muttrc'
 
 macro index,pager A "<save-message>=Archive<enter>" "Archive Message"
+
+# Search
+macro index S "<enter-command>unset wait_key<enter><shell-escape>mutt-notmuch-py ~/.mail/temporary/search<enter><change-folder-readonly>+temporary/search<enter>" "search mail (using notmuch)"
+
+# Contacts
+set query_command="goobook query '%s'"
+# macro index,pager a "<pipe-message>goobook add<return>" "add sender to google contacts"
+bind editor <Tab> complete-query
 
 
 # Compose View Options -------------------------------
