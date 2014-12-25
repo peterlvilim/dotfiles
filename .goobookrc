@@ -7,8 +7,8 @@ email: peterlvilim@gmail.com
 # or if you want to get the password from a commmand:
 passwordeval: pass peterlvilim_mutt@gmail.com
 # The following are optional, defaults are shown
-;cache_filename: ~/.goobook_cache
-;cache_expiry_hours: 24
+cache_filename: ~/.goobook_cache
+cache_expiry_hours: 24
 ;filter_groupless_contacts: yes
 # New contacts will be added to this group in addition to "My Contacts"
 # Note that the group has to already exist on google or an error will occur.
