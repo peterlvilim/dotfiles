@@ -121,6 +121,7 @@ bind attach <return> view-mailcap
 folder-hook . "exec collapse-all"
 folder-hook *andurilbearer* 'source ~/.mutt/.andurilbearer.muttrc'
 folder-hook *vilim1backup* 'source ~/.mutt/.vilim1backup.muttrc'
+folder-hook *peterlvilim* 'source ~/.mutt/.peterlvilim.muttrc'
 
 macro index,pager A "<save-message>=Archive<enter>" "Archive Message"
 
@@ -150,8 +151,6 @@ set reverse_name                     # reply as whomever it was to
 set include                          # include message in replies
 set forward_quote                    # include message in forwards
 
-set from     = "peterlvilim@gmail.com"
-set sendmail = "msmtp -a peterlvilim"
 set sendmail_wait = 0
 unset record
 
