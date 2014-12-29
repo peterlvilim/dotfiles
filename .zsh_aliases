@@ -13,6 +13,5 @@ alias crontab-e="$EDITOR ~/.crontab && crontab ~/.crontab"
 ago() {
 ag "$@" && $EDITOR `ag -l --nobreak "$@" | tmenu -l 10 -p `
 }
-alias ls="ls"
-alias l="ls"
+alias l="ls -F"
 alias edit='editor "$(git ls-files | tmenu -l 10 -p )"'
