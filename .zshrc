@@ -51,7 +51,7 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.shell_prompt.sh
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:$HOME/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:$HOME/bin:/usr/bin/core_perl"
 export FPATH="$FPATH:$HOME/.zsh-completions"
 
 # export MANPATH="/usr/local/man:$MANPATH"
