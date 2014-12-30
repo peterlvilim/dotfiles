@@ -105,9 +105,6 @@ let g:tagbar_sort = 0 " sort by order in file
 noremap <F1> <Esc>| " Avoid accidental hits of <F1> while aiming for <Esc>
 nnoremap Q <nop>|  " Turn off Q
 
-" Write with sudo with :W
-cmap w!! w !sudo tee % >/dev/null " Use w!! to write file using sudo
-
 " python-mode
 let g:pymode_folding = 0 " disable folding
 let g:pymode_lint_on_write = 1 " enable lint on write (run manually)
