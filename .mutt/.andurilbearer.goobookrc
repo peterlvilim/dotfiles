@@ -2,17 +2,17 @@
 [DEFAULT]
 # If not given here, email and password is taken from .netrc using
 # machine google.com
-email: peterlvilim@gmail.com
+email: andurilbearer@gmail.com
 ;password: top secret
 # or if you want to get the password from a commmand:
-passwordeval: pass peterlvilim_mutt@gmail.com
+passwordeval: pass andurilbearer@gmail.com
 # The following are optional, defaults are shown
-cache_filename: ~/.goobook_cache
+cache_filename: ~/.goobook_cache_andurilbearer
 cache_expiry_hours: 24
 ;filter_groupless_contacts: yes
 # New contacts will be added to this group in addition to "My Contacts"
 # Note that the group has to already exist on google or an error will occur.
 # One use for this is to add new contacts to an "Unsorted" group, which can
 # be sorted easier than all of "My Contacts".
-default_group: "Other Contacts"
+default_group: "Other Contacted"
 

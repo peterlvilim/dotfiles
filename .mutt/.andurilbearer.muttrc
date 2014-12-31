@@ -1,2 +1,3 @@
 set from = "andurilbearer@gmail.com"
 set sendmail = "msmtp -a andurilbearer"
+set query_command="goobook -c ~/.mutt/.andurilbearer.goobookrc query '%s'"
