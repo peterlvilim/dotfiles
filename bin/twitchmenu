@@ -149,7 +149,7 @@ play_stream() { # string string -> either(command, stderr)
     local err
 
     lstreamer_opts=(
-        --player mpv
+        --player "mpv '--no-osc'"
         --quiet
         "$url"
         "source"
