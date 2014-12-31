@@ -149,11 +149,11 @@ play_stream() { # string string -> either(command, stderr)
     local err
 
     lstreamer_opts=(
-        --player "mpv --title='$title' --profile=live"
+        --player mpv
         --quiet
         "$url"
+        "source"
     )
-
     if ! err="$(livestreamer "${lstreamer_opts[@]}")"; then
         err '%s' "$err"
     fi
