@@ -3,6 +3,7 @@ Xft.antialias:              true
 Xft.rgba:                   rgb
 Xft.hinting:                true
 Xft.hintstyle:              hintslight
+URxvt.intensityStyles: false
 
 URxvt.depth:                32
 URxvt.geometry:             90x30
