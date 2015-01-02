@@ -14,4 +14,4 @@ ago() {
 ag "$@" && $EDITOR `ag -l --nobreak "$@" | tmenu -l 10 -p `
 }
 alias l="ls -F"
-alias edit='editor "$(git ls-files | tmenu -l 10 -p )"'
+alias edit='$EDITOR "$(git ls-files | tmenu -l 10 -p )"'

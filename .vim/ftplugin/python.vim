@@ -7,3 +7,4 @@ let g:syntastic_mode_map = { "mode": "passive" } " disable syntastic
 let autoreadargs={'autoread':1}
 execute WatchForChanges("*",autoreadargs)
 let g:pymode_rope_completion = 0
+let g:pymode_rope_goto_definition_bind = "<leader>d"
