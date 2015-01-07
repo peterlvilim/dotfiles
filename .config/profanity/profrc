@@ -5,5 +5,9 @@ mouse=true
 [notifications]
 message=true
 
+message.text=true
+room=mention
+room.text=true
+
 [connection]
 account=fb
