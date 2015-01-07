@@ -1,0 +1,9 @@
+[ui]
+theme=hacker
+mouse=true
+
+[notifications]
+message=true
+
+[connection]
+account=fb
