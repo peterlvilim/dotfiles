@@ -2,6 +2,8 @@
 theme=hacker
 mouse=true
 
+splash=false
+
 [notifications]
 message=true
 
