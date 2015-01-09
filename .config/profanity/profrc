@@ -1,0 +1,15 @@
+[ui]
+theme=hacker
+mouse=true
+
+splash=false
+
+[notifications]
+message=true
+
+message.text=true
+room=mention
+room.text=true
+
+[connection]
+account=fb

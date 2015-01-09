@@ -131,4 +131,4 @@ so ~/.vim/autoload/WatchForChanges.vim
 " easytags
 let g:easytags_suppress_report = 1
 
-nnoremap <C-u> :redraw!<CR>| " force redraw
+nnoremap <C-l> :redraw!<CR>| " force redraw
