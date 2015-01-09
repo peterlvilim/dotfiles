@@ -12,7 +12,7 @@ URxvt.fading:               0
 ! URxvt.urgentOnBell:         true
 ! URxvt.visualBell:           true
 URxvt.loginShell:           true
-URxvt.saveLines:            1000
+URxvt.saveLines:            10000
 URxvt.lineSpace:            0
 URxvt*font: xft:Inconsolata for Powerline:regular:pixelsize=12
 ! Fonts
@@ -25,8 +25,9 @@ URxvt.scrollStyle:          rxvt
 URxvt.scrollBar:            false
 
 ! Perl extensions
-URxvt.perl-ext: default,selection-to-clipboard,url-select
+URxvt.perl-ext: default,selection-to-clipboard,url-select,keyboard-select
 URxvt.keysym.C-i: perl:url-select:select_next
+URxvt.keysym.C-f: perl:keyboard-select:activate
 URxvt.url-select.launcher: chromium
 URxvt.url-select.underline: true
 
