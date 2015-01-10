@@ -81,3 +81,5 @@ export FPATH="$FPATH:$HOME/.zsh-completions"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source $HOME/.zsh_aliases
+alias grep="/usr/bin/grep $GREP_OPTIONS"
+unset GREP_OPTIONS
