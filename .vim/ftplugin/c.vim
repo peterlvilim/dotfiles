@@ -8,6 +8,7 @@
 ""will put icons in Vim's gutter on lines that have a diagnostic set.
 "Turning this off will also turn off the YcmErrorLine and YcmWarningLine
 ""highlighting
+let g:ycm_global_ycm_extra_conf = '/home/pvilim/.vim/ftplugin/.ycm_extra_conf_c.py'  "where to search for .ycm_extra_conf.py if not found
 let g:ycm_enable_diagnostic_signs = 1
 let g:ycm_enable_diagnostic_highlighting = 0
 let g:ycm_always_populate_location_list = 1 "default 0
@@ -22,9 +23,6 @@ let g:ycm_path_to_python_interpreter = '' "default ''
 let g:ycm_server_use_vim_stdout = 0 "default 0 (logging to console)
 let g:ycm_server_log_level = 'info' "default info
 
-
-let g:ycm_global_ycm_extra_conf = '/home/pvilim/.vim/ftplugin/.ycm_extra_conf_c.py'  "where to search for .ycm_extra_conf.py if not found
-let g:ycm_confirm_extra_conf = 1
 
 
 let g:ycm_goto_buffer_command = 'same-buffer' "[ 'same-buffer', 'horizontal-split', 'vertical-split', 'new-tab' ]
