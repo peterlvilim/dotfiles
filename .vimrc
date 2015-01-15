@@ -21,7 +21,7 @@ syntax on " enable syntax highlighting
 set title " display doc name in terminal title
 set showcmd             " show command in bottom bar
 set ttyfast " force fast tty (should enable by default on urxvt)
-
+set cmdheight=2
 
 " temp files
 set nobackup " don't write backup files since I use git

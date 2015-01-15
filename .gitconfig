@@ -11,3 +11,6 @@
 	excludesfile = /home/pvilim/.gitignore_global
 [alias]
 	root = !pwd
+[difftool]
+    difftool = vimdiff -O
+    prompt = no
