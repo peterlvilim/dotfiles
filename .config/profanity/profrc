@@ -4,6 +4,8 @@ mouse=true
 
 splash=false
 
+history=true
+
 [notifications]
 message=true
 
@@ -13,3 +15,6 @@ room.text=true
 
 [connection]
 account=fb
+
+[logging]
+chlog=true

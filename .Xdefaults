@@ -28,7 +28,7 @@ URxvt.scrollBar:            false
 URxvt.perl-ext: default,selection-to-clipboard,url-select,keyboard-select
 URxvt.keysym.C-i: perl:url-select:select_next
 URxvt.keysym.C-f: perl:keyboard-select:activate
-URxvt.url-select.launcher: chromium
+URxvt.url-select.launcher: qutebrowser
 URxvt.url-select.underline: true
 
 ! Cursor

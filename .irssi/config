@@ -3,7 +3,6 @@ settings = {
     # Solarized
     theme = "solarized-universal";
     hilight_color = "= %R";
-    autolog = "yes";
   };
   core = {
     real_name = "Peter Vilim";
@@ -23,4 +22,3 @@ statusbar = {
     more = "%k%3-- more --%n";
   };
 };
-logs = { };
