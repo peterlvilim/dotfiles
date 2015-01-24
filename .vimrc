@@ -132,3 +132,6 @@ so ~/.vim/autoload/WatchForChanges.vim
 let g:easytags_suppress_report = 1
 
 nnoremap <C-l> :redraw!<CR>| " force redraw
+  let g:ycm_filetype_specific_completion_to_disable = {
+          \ 'gitcommit': 1,
+          \}

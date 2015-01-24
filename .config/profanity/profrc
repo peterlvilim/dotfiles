@@ -16,5 +16,7 @@ room.text=true
 [connection]
 account=fb
 
+autoping=30
+
 [logging]
 chlog=true
