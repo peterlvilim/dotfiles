@@ -367,11 +367,11 @@ def_key "ctrl_p"
 #def_key "?"
 #  find_item_backward
 #
-#def_key "."
-#  next_found_item
+def_key "n"
+  next_found_item
 #
-#def_key ","
-#  previous_found_item
+def_key "N"
+  previous_found_item
 #
 #def_key "w"
 #  toggle_find_mode
