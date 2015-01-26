@@ -293,7 +293,7 @@ abstracts = {
   # default backround for "default" statusbar group
   # NOTE: this impacts the statusbar of an inactive window and the edges of adv_windowlist
   # %7 = white (wich looks gray on a regular terminal with white bg)
-  sb_default_bg = "%k%7";
+  sb_default_bg = "%k%2";
 
   # background for topicbar at the top (defaults to sb_default_bg)
   sb_topic_bg = "%W%0";
@@ -308,7 +308,7 @@ abstracts = {
   # background for info statusbar
   # %8 = reverse window
   # TODO: To test for Solarized
-  sb_info_bg = "%8";
+  sb_info_bg = "%n";
 
   # text at the beginning of statusbars. sb-item already puts
   # space there,so we don't use anything by default.
@@ -323,14 +323,13 @@ abstracts = {
   prompt = "$c$*%n> ";
 
   # This controls each part of a statusbor, including the outer brackets of adv_windowlist
-  sb = " $* %M|%n";
+  # sb = " $* %M|%n";
   # The mode is next to your NICK and the channel
   # %Y = brightyellow (Solarized: base00, i.e. 2nd darkest gray)
-  sbmode = "%b(%n+$*%b)%n";
-  sbaway = " (%GzZzZ%n)";
+  # sbmode = "%b(%n+$*%b)%n";
+  # sbaway = " (%GzZzZ%n)";
   # %Y = brightyellow (Solarized: base00, i.e. 2nd darkest gray)
-  sbservertag = ":$0 %b(change with ^X)%n";
-  sbnickmode = "$0";
+  # sbnickmode = "$0";
 
   # activity in statusbar
 
@@ -348,16 +347,6 @@ abstracts = {
   # hilight with specified color, $0 = color, $1 = text
   sb_act_hilight_color = "$0$1-%n";
 
-  ### For usercount.pl script
-
-  #sb_usercount = "{sb %_$0%_ nicks ($1-)}";
-  sb_usercount = "{sb %_$0%_ users %Y(%n$1-%Y)%n}";
-  sb_uc_ircops = "%k*%n$*";
-  sb_uc_ops = "%k@%n$*";
-  sb_uc_halfops = "%k%%%n$*";
-  sb_uc_voices = "%k+%n$*";
-  sb_uc_normal = "$*";
-  #  sb_uc_space = " ";
 
   ### For adv_windowlist.pl script
 
