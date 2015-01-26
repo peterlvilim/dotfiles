@@ -308,7 +308,7 @@ abstracts = {
   # background for info statusbar
   # %8 = reverse window
   # TODO: To test for Solarized
-  sb_info_bg = "%n";
+  sb_info_bg = "%8";
 
   # text at the beginning of statusbars. sb-item already puts
   # space there,so we don't use anything by default.
@@ -323,13 +323,14 @@ abstracts = {
   prompt = "$c$*%n> ";
 
   # This controls each part of a statusbor, including the outer brackets of adv_windowlist
-  # sb = " $* %M|%n";
+  sb = " $* %M|%n";
   # The mode is next to your NICK and the channel
   # %Y = brightyellow (Solarized: base00, i.e. 2nd darkest gray)
-  # sbmode = "%b(%n+$*%b)%n";
-  # sbaway = " (%GzZzZ%n)";
+  sbmode = "%b(%n+$*%b)%n";
+  sbaway = " (%GzZzZ%n)";
   # %Y = brightyellow (Solarized: base00, i.e. 2nd darkest gray)
-  # sbnickmode = "$0";
+  sbservertag = ":$0 %b(change with ^X)%n";
+  sbnickmode = "$0";
 
   # activity in statusbar
 
@@ -347,6 +348,16 @@ abstracts = {
   # hilight with specified color, $0 = color, $1 = text
   sb_act_hilight_color = "$0$1-%n";
 
+  ### For usercount.pl script
+
+  #sb_usercount = "{sb %_$0%_ nicks ($1-)}";
+  sb_usercount = "{sb %_$0%_ users %Y(%n$1-%Y)%n}";
+  sb_uc_ircops = "%k*%n$*";
+  sb_uc_ops = "%k@%n$*";
+  sb_uc_halfops = "%k%%%n$*";
+  sb_uc_voices = "%k+%n$*";
+  sb_uc_normal = "$*";
+  #  sb_uc_space = " ";
 
   ### For adv_windowlist.pl script
 
@@ -358,4 +369,5 @@ formats = {
   "fe-common/core" = {
     daychange = "           %g-----%w-%W-%n Day changed to %%D %W-%w-%g-----%n";
   };
+  "Irssi::Script::adv_windowlist" = { awl_display_header = ""; };
 };

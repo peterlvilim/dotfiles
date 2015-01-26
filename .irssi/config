@@ -4,19 +4,31 @@ settings = {
     theme = "solarized-universal";
     hilight_color = "= %R";
   };
-  core = {
-    real_name = "Peter Vilim";
-    user_name = "pvilim";
-    nick = "pvilim";
+  "perl/core/scripts" = {
+    ### For Solarized adv_windowlist.pl script
+    awl_display_key_active = "%k%2[$Q=$N:$C]%n";
+    awl_display_nokey_active = "%k%2[$N:$C]%n";
+    awl_display_key = "[$Q:$H$C$S]";
+    awl_display_nokey = "[$N:$H$C$S]";
+
+    ### For Solarized trackbar.pl script
+    trackbar_style = "%B";
+    awl_shared_sbar = "OFF";
+    awl_viewer = "no";
   };
+  core = { real_name = "Unknown"; user_name = "pvilim"; nick = "pvilim"; };
   "fe-text" = { actlist_sort = "refnum"; };
-  "perl/core/scripts" = { awl_shared_sbar = "OFF"; awl_viewer = "no"; };
 };
 hilights = (
   { text = "pvilim"; color = "%M"; nick = "yes"; word = "yes"; }
 );
 statusbar = {
-  awl_0 = { items = { awl_0 = { }; }; };
+  items = {
+    # Solarized
+    lag = "{sb Lag: %m$0-%n}";
+    act = "{sb Act: $0-}";
+    more = "%k%3-- more --%n";
+  };
   default = {
     window = { disabled = "yes"; };
     awl_0 = {
@@ -28,4 +40,3 @@ statusbar = {
     };
   };
 };
-logs = { };
