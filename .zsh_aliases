@@ -48,3 +48,4 @@ build-app() {
 calw() {
 gcalcli agenda --calendar peter.vilim@delphix.com --calendar "Eng Status"
 }
+alias cps='rsync -p --progress'
