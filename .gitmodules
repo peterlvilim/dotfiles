@@ -49,3 +49,9 @@
 [submodule ".vim/bundle/zeavim.vim"]
 	path = .vim/bundle/zeavim.vim
 	url = git@github.com:KabbAmine/zeavim.vim.git
+[submodule ".vim/bundle/lint.vim"]
+	path = .vim/bundle/lint.vim
+	url = git@github.com:joestelmach/lint.vim.git
+[submodule ".vim/bundle/ag.vim"]
+	path = .vim/bundle/ag.vim
+	url = git@github.com:rking/ag.vim.git

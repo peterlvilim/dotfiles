@@ -16,3 +16,35 @@ ag "$@" && $EDITOR `ag -l --nobreak "$@" | tmenu -l 10 -p `
 alias l="ls -F"
 alias edit='$EDITOR "$(git ls-files | tmenu -l 10 -p )"'
 alias chat=profanity
+#delphix
+alias js-test-all="ant test -Dtest.browsers=Chrome,Firefox,Safari,PhantomJS | grep 'Running all tests\|Safari\|PhantomJS\|Chrome\|Firefox' | sed 's/     \[echo\] Running all tests: //g' | sed 's/  \[exec\]//g'"
+git-root() {
+    cd $(git root)
+}
+build-gui() {
+    pwd=$(pwd)
+    git-root
+    cd appliance
+    ant createVersion
+    cd client/gui
+    ant all
+    cd $pwd
+}
+debug-gui() {
+    pwd=$(pwd)
+    git-root
+    cd appliance/client/gui
+    grunt
+    cd $pwd
+}
+build-app() {
+    export JAVA_HOME=/usr/lib/jvm/java-7-jdk
+    pwd=$(pwd)
+    git-root
+    cd appliance
+    ant dev
+    cd $pwd
+}
+calw() {
+gcalcli agenda --calendar peter.vilim@delphix.com --calendar "Eng Status"
+}

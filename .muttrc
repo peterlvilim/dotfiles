@@ -48,6 +48,7 @@ set spoolfile = "+peterlvilim/INBOX"
 mailboxes +peterlvilim/INBOX \
           +andurilbearer/INBOX \
           +vilim1backup/INBOX \
+          +delphix/INBOX \
           +peterlvilim/archive \
           +peterlvilim/sent \
           +peterlvilim/drafts \
@@ -57,6 +58,18 @@ mailboxes +peterlvilim/INBOX \
           +vilim1backup/archive \
           +vilim1backup/sent \
           +vilim1backup/drafts \
+          +delphix/archive \
+          +delphix/sent \
+          +delphix/drafts \
+          +delphix/app_push\
+          +delphix/bug\
+          +delphix/invitation\
+          +delphix/os_push\
+          +delphix/push\
+          +delphix/os_push\
+          +delphix/review\
+          +delphix/Vacation\
+          +delphix/welcome\
           +temporary/search \
 
 
@@ -122,6 +135,7 @@ folder-hook . "exec collapse-all"
 folder-hook *andurilbearer* 'source ~/.mutt/.andurilbearer.muttrc'
 folder-hook *vilim1backup* 'source ~/.mutt/.vilim1backup.muttrc'
 folder-hook *peterlvilim* 'source ~/.mutt/.peterlvilim.muttrc'
+folder-hook *delphix* 'source ~/.mutt/.delphix.muttrc'
 
 macro index,pager A "<save-message>=Archive<enter>" "Archive Message"
 

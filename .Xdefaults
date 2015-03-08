@@ -9,12 +9,10 @@ URxvt.depth:                32
 URxvt.geometry:             90x30
 URxvt.transparent:          false
 URxvt.fading:               0
-! URxvt.urgentOnBell:         true
-! URxvt.visualBell:           true
 URxvt.loginShell:           true
 URxvt.saveLines:            10000
 URxvt.lineSpace:            0
-URxvt*font: xft:Inconsolata for Powerline:regular:pixelsize=12
+URxvt*font: xft:Inconsolata for Powerline:regular:pixelsize=14
 ! Fonts
 URxvt.allow_bold:           true
 
@@ -28,7 +26,7 @@ URxvt.scrollBar:            false
 URxvt.perl-ext: default,selection-to-clipboard,url-select,keyboard-select
 URxvt.keysym.C-i: perl:url-select:select_next
 URxvt.keysym.C-f: perl:keyboard-select:activate
-URxvt.url-select.launcher: qutebrowser
+URxvt.url-select.launcher: firefox
 URxvt.url-select.underline: true
 
 ! Cursor

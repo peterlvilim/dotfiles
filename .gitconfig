@@ -1,16 +1,30 @@
 [user]
 	name = Peter Vilim
-	email = pvilim@delphix.com
+	email = peter.vilim@delphix.com
 [color]
-	ui = true
+	ui = auto
 [push]
 	default = simple
 [merge]
-	tool = vimdiff3
+	tool = vimdiff
 [core]
 	excludesfile = /home/pvilim/.gitignore_global
 [alias]
-	root = !pwd
+    root = !pwd
+    precommit = !sh -c \"git push ssh://delphix@eng-dash.delphix.com/usr/local/dlpx-app-gate/ $(git rev-parse --abbrev-ref HEAD):precommit\"
+    blackbox = !sh -c \"git push ssh://delphix@eng-dash.delphix.com/usr/local/dlpx-app-gate/ $(git rev-parse --abbrev-ref HEAD):blackbox-normal\"
+    dx-test = !sh -c \"git push ssh://delphix@eng-dash.delphix.com/usr/local/dlpx-app-gate/ $(git rev-parse --abbrev-ref HEAD):precommit $(git rev-parse --abbrev-ref HEAD):blackbox-normal\"
+    dx-push = !sh -c \"git push ssh://delphix@eng-dash.delphix.com/usr/local/dlpx-app-gate/ $(git rev-parse --abbrev-ref HEAD):dx-push\"
+    dx-push2 = !sh -c \"git push ssh://delphix@eng-dash.delphix.com/usr/local/dlpx-app-gate/ $(git rev-parse --abbrev-ref HEAD):dx-push2\"
+    root = !pwd
+    au = appliance-update
 [difftool]
     difftool = vimdiff -O
     prompt = no
+[credential]
+    helper = cache
+[reviewboard]
+    url = http://reviews.delphix.com/
+[dlpx]
+	email = peter.vilim@delphix.com
+	ldap-user = pvilim

@@ -3,6 +3,8 @@ settings = {
     # Solarized
     theme = "solarized-universal";
     hilight_color = "= %R";
+    activity_hide_level = "parts modes quits";
+    ignore = "modes joins parts quits";
   };
   "perl/core/scripts" = {
     ### For Solarized adv_windowlist.pl script

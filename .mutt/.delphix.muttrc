@@ -1,0 +1,2 @@
+set from = "peter.vilim@delphix.com"
+set sendmail = "msmtp -a delphix"
