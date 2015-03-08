@@ -1,2 +1,21 @@
-text/html;                      elinks %s; nametemplate=%s.html
-text/html;                      elinks -dump %s; nametemplate=%s.html; copiousoutput
+text/html;                      elinks -force-html %s
+text/plain;                     vim %s
+
+application/x-msexcel; /home/pvilim/.mutt/view_attachment.sh %s
+application/ms-exc; /home/pvilim/.mutt/view_attachment.sh %s
+application/excel; /home/pvilim/.mutt/view_attachment.sh %s
+application/msexcel; /home/pvilim/.mutt/view_attachment.sh %s
+application/vnd.ms-exc; /home/pvilim/.mutt/view_attachment.sh %s
+application/vnd.ms-excel; /home/pvilim/.mutt/view_attachment.sh %s
+
+# Images
+image/jpeg; sxiv %s
+image/pjpeg; sxiv %s
+image/png; sxiv %s
+image/gif; sxiv %s
+
+# PDF
+application/pdf; zathura %s
+
+# Unidentified.
+application/octet-stream; /home/pvilim/.mutt/view_attachment.sh %s "-" 
