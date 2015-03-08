@@ -16,3 +16,4 @@ ag "$@" && $EDITOR `ag -l --nobreak "$@" | tmenu -l 10 -p `
 alias l="ls -F"
 alias edit='$EDITOR "$(git ls-files | tmenu -l 10 -p )"'
 alias chat=profanity
+alias cps='rsync -p --progress'
