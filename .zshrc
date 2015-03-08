@@ -46,13 +46,14 @@ ZSH_THEME="afowler"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git cp)
+plugins=(git cp colored-man archlinux extract rsync web-search)
 source $ZSH/oh-my-zsh.sh
 source $HOME/.shell_prompt.sh
 # User configuration
 
 export PATH="/usr/local/bin:/usr/bin:/bin:$HOME/bin:/usr/bin/core_perl"
 export FPATH="$FPATH:$HOME/.zsh-completions"
+export PATH=$PATH:/home/pvilim/scripts/git-utils/bin
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -83,3 +84,4 @@ export FPATH="$FPATH:$HOME/.zsh-completions"
 source $HOME/.zsh_aliases
 alias grep="/usr/bin/grep $GREP_OPTIONS"
 unset GREP_OPTIONS
+export JAVA_HOME=/usr/lib/jvm/default-runtime

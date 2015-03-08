@@ -1,5 +1,5 @@
 #!/bin/sh
-COMMANDS="suspend\nreboot\nhalt\nlock\nlogout\n"
+COMMANDS="suspend\nreboot\npoweroff\nlock\nlogout\n"
 
 command=$(printf $COMMANDS | \
     dmenu-dark -p "power")

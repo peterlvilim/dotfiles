@@ -65,6 +65,12 @@ nnoremap ` '
 nnoremap [l :lprev<CR><CR>| " go to previous
 nnoremap ]l :lnext<CR><CR>| " go to previous
 
+" Revert Git hunk
+nnoremap <leader>g :GitGutterRevertHunk<CR>
+
+" Search
+nnoremap <leader>a :Ag 
+
 set viminfo='10,\"100,:20,%,n~/.viminfo " remember where in a file we were when we closed
 
 nnoremap ; :| " map the ; to do the same as pressing SHIFT+;
@@ -114,6 +120,9 @@ let g:pymode_lint_cwindow = 0 " disable open window for errors
 " eclim
 let g:EclimCompletionMethod = 'omnifunc' " use YouCompleteMe for eclim completion
 noremap  <leader>o <C-w>z| " close all buffers but this one and preview window
+autocmd VimEnter * :EclimDisable
+autocmd VimEnter *.java :EclimEnable
+autocmd BufRead *.java :EclimEnable
 
 if executable('ag')
   " Use Ag over Grep
