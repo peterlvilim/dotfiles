@@ -1,4 +1,5 @@
-text/html;                      elinks -force-html %s
+text/html;                      elinks %s; nametemplate=%s.html
+text/html;                      elinks -dump %s; nametemplate=%s.html; copiousoutput
 text/plain;                     vim %s
 
 application/x-msexcel; /home/pvilim/.mutt/view_attachment.sh %s
