@@ -1,0 +1,52 @@
+settings = {
+  "fe-common/core" = {
+    # Solarized
+    theme = "solarized-universal";
+    hilight_color = "= %R";
+    activity_hide_level = "parts modes quits";
+    ignore = "modes joins parts quits";
+  };
+  "perl/core/scripts" = {
+    ### For Solarized adv_windowlist.pl script
+    awl_display_key_active = "%k%2[$Q=$N:$C]%n";
+    awl_display_nokey_active = "%k%2[$N:$C]%n";
+    awl_display_key = "[$Q:$H$C$S]";
+    awl_display_nokey = "[$N:$H$C$S]";
+
+    ### For Solarized trackbar.pl script
+    trackbar_style = "%B";
+    awl_shared_sbar = "OFF";
+    awl_viewer = "no";
+  };
+  core = { real_name = "Unknown"; user_name = "pvilim"; nick = "pvilim"; };
+  "fe-text" = { actlist_sort = "refnum"; };
+};
+hilights = (
+  { text = "pvilim"; color = "%M"; nick = "yes"; word = "yes"; }
+);
+statusbar = {
+  items = {
+    # Solarized
+    lag = "{sb Lag: %m$0-%n}";
+    act = "{sb Act: $0-}";
+    more = "%k%3-- more --%n";
+  };
+  default = {
+    window = { disabled = "yes"; };
+    awl_0 = {
+      items = {
+        barstart = { priority = "100"; };
+        awl_0 = { };
+        barend = { priority = "100"; alignment = "right"; };
+      };
+    };
+    awl_1 = {
+      items = {
+        barstart = { priority = "100"; };
+        awl_1 = { };
+        barend = { priority = "100"; alignment = "right"; };
+      };
+    };
+  };
+};
+logs = { };
