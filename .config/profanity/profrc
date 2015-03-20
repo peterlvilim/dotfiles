@@ -6,6 +6,8 @@ splash=false
 
 history=true
 
+time.statusbar=off
+
 [notifications]
 message=true
 
@@ -16,7 +18,7 @@ room.text=true
 [connection]
 account=fb
 
-autoping=30
+autoping=15
 
 [logging]
 chlog=true
