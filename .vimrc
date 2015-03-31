@@ -1,5 +1,6 @@
 " plugins
 set nocompatible " break backwards compatibility
+set backspace=2
 " install all plugins in bundle folder
 execute pathogen#infect()
 filetype plugin on " enable vim files on a filetype basis (see ftplugin folder)

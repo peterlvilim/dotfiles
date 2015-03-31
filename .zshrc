@@ -85,3 +85,4 @@ source $HOME/.zsh_aliases
 alias grep="/usr/bin/grep $GREP_OPTIONS"
 unset GREP_OPTIONS
 export JAVA_HOME=/usr/lib/jvm/default-runtime
+export TZ=/etc/localtime

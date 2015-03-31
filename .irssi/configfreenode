@@ -17,7 +17,7 @@ settings = {
     awl_shared_sbar = "OFF";
     awl_viewer = "no";
   };
-  core = { real_name = "Unknown"; user_name = "pvilim/delphix"; nick = "pvilim"; };
+  core = { real_name = "Unknown"; user_name = "pvilim/freenode"; nick = "pvilim"; };
   "fe-text" = { actlist_sort = "refnum"; };
 };
 hilights = (

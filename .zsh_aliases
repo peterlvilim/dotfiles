@@ -3,7 +3,7 @@ alias g="git"
 gcal() {
 gcalcli --pw `pass peterlvilim@gmail.com` "$@"
 }
-alias v="vim"
+alias v="nvim"
 alias c="clear"
 alias s="ncmpcpp"
 alias m="mutt"
