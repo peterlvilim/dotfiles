@@ -9,13 +9,8 @@
 	tool = vimdiff
 [core]
 	excludesfile = /home/pvilim/.gitignore_global
+        editor = /usr/bin/nvim
 [alias]
-    root = !pwd
-    precommit = !sh -c \"git push ssh://delphix@eng-dash.delphix.com/usr/local/dlpx-app-gate/ $(git rev-parse --abbrev-ref HEAD):precommit\"
-    blackbox = !sh -c \"git push ssh://delphix@eng-dash.delphix.com/usr/local/dlpx-app-gate/ $(git rev-parse --abbrev-ref HEAD):blackbox-normal\"
-    dx-test = !sh -c \"git push ssh://delphix@eng-dash.delphix.com/usr/local/dlpx-app-gate/ $(git rev-parse --abbrev-ref HEAD):precommit $(git rev-parse --abbrev-ref HEAD):blackbox-normal\"
-    dx-push = !sh -c \"git push ssh://delphix@eng-dash.delphix.com/usr/local/dlpx-app-gate/ $(git rev-parse --abbrev-ref HEAD):dx-push\"
-    dx-push2 = !sh -c \"git push ssh://delphix@eng-dash.delphix.com/usr/local/dlpx-app-gate/ $(git rev-parse --abbrev-ref HEAD):dx-push2\"
     root = !pwd
     au = appliance-update
 [difftool]
@@ -28,3 +23,4 @@
 [dlpx]
 	email = peter.vilim@delphix.com
 	ldap-user = pvilim
+	appliance-user = delphix

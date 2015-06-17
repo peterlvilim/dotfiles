@@ -6,8 +6,8 @@ execute pathogen#infect()
 filetype plugin on " enable vim files on a filetype basis (see ftplugin folder)
 
 " colors
-colorscheme solarized " set color scheme to bad solarized
-set background=dark " use a dark color theme
+colorscheme Tomorrow" set color scheme to bad solarized
+set background=light " use a dark color theme
 let g:solarized_termcolors = 16 " use 16 color solarized
 let g:solarized_termtrans =   0 " disable compability
 let g:solarized_degrade   =   0 " disable compatibility
@@ -145,3 +145,9 @@ nnoremap <C-l> :redraw!<CR>| " force redraw
   let g:ycm_filetype_specific_completion_to_disable = {
           \ 'gitcommit': 1,
           \}
+
+" gvim
+:set guioptions-=m  "remove menu bar
+:set guioptions-=T  "remove toolbar
+:set guioptions-=r  "remove right-hand scroll bar
+:set guioptions-=L  "remove left-hand scroll bar
