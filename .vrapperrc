@@ -1,0 +1,12 @@
+nnoremap B ^
+nnoremap E $
+nnoremap ; :
+nnoremap dB d^| " also remap delete
+nnoremap dE d$| " also remap delete
+vnoremap B ^| " also remap visual mode
+vnoremap E $| " also remap visual mode
+set hlsearch
+set smartcase
+set incsearch
+set scrolloff=2
+:set clipboard=unnamedplus
